@@ -19,8 +19,8 @@ require(stringr)
 
 theme_set(theme_bw())
 
-load(file = "../data/dat-status-per-day-2-cleaned.R")
-load(file = "../data/facilities.R")
+load(file = "./output/dat-status-per-day-2-cleaned.R")
+load(file = "./output/facilities.R")
 
 dat.status.per.day <- dat.status.per.day %>% mutate(equipmentnumber = as.numeric(equipmentnumber)) %>% 
   gather("state", "n", ACTIVE:UNKNOWN)

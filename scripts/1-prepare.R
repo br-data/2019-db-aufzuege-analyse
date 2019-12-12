@@ -6,8 +6,7 @@ require(tidyverse)
 require(lubridate)
 require(feather)
 
-#load("../data/raster-0-orig.R")
-raster <- read_csv("../data/raster-0-orig.csv")
+raster <- read_csv("../input/raster-0-orig.csv.gz")
 
 # 1. & 2. Floor time and delete duplicates
 
@@ -42,4 +41,4 @@ rm(first.datetime, last.datetime)
 raster <- left_join(grid, raster) %>% 
   mutate_at(-1, ~replace(., is.na(.), "NODATA"))
 
-save(raster, file = "../data/raster-1-prepared.R")
+save(raster, file = "../output/raster-1-prepared.R")

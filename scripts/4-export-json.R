@@ -2,9 +2,9 @@ require(tidyverse)
 require(jsonlite)
 require(lubridate)
 
-load("../data/raster-2-cleaned.R")
-load("../data/dat-status-per-day-2-cleaned.R")
-load("../data/facilities.R")
+load("../output/raster-2-cleaned.R")
+load("../output/dat-status-per-day-2-cleaned.R")
+load("../output/facilities.R")
 
 # Map data
 
@@ -89,8 +89,8 @@ map.data <- inactivePerMoment %>%
 
 map.data %>%
   toJSON(pretty = F) %>%
-  write(file = "../data/map-data.json")
+  write(file = "../output/map-data.json")
 
 calendar %>%
   toJSON(pretty = F) %>%
-  write(file = "../data/calendar-data.json")
+  write(file = "../output/calendar-data.json")
