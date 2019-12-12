@@ -1,0 +1,872 @@
+S-Bahnstationsname;DB-Stationsname;Abkuerzung;S-Bahnnetz;BM;Matching-Methode
+Agathenburg;Agathenburg;AABG;Hamburg;Hamburg;direct
+Ahrensfelde;Ahrensfelde;BAHR;Berlin;Berlin;direct
+Aldekerk;Aldekerk;KALK;Rhein-Ruhr;Duisburg;codematch
+Alexanderplatz;Alexanderplatz;BALE;Berlin;Berlin;direct
+Allermöhe;Allermöhe;AALH;Hamburg;Hamburg;direct
+Alpen;Alpen;KALP;Rhein-Ruhr;Duisburg;codematch
+Altdorf;Altdorf (b Nürnberg);NAD;Nürnberg;Nürnberg;regex
+Altdorf West;Altdorf West (b Nürnberg);NADW;Nürnberg;Nürnberg;regex
+Alte Wöhr Stadtpark;Alte Wöhr;AAW;Hamburg;Hamburg;manual
+Altenerding;Altenerding;MANE;München;München;direct
+Altglienicke;Altglienicke;BAGL;Berlin;Berlin;direct
+Altomünster;Altomünster;MAMT;München;München;direct
+Alt-Reinickendorf;Alt-Reinickendorf;BARF;Berlin;Berlin;direct
+Angermund;Angermund;KANM;Rhein-Ruhr;Düsseldorf;codematch
+Anrath;Anrath;KANR;Rhein-Ruhr;Duisburg;codematch
+Ansbach;Ansbach;NAN;Nürnberg;Nürnberg;direct
+Anwanden;Anwanden;NAWN;Nürnberg;Nürnberg;direct
+Arnbach;Arnbach;MANB;München;München;direct
+Attilastraße;Attilastraße;BATS;Berlin;Berlin;direct
+Aufhausen;Aufhausen (b Erding);MAFE;München;München;regex
+Aumühle;Aumühle;AAH;Hamburg;Hamburg;direct
+Aying;Aying;MAY;München;München;direct
+Babelsberg;Babelsberg;BBAB;Berlin;Berlin;direct
+Bachern;Bachern;MBCN;München;München;direct
+Bad Homburg v.d.H. Bahnhof;Bad Homburg;FHO;Rhein-Main;Frankfurt a. M.;manual
+Bad Soden (Taunus) Bahnhof;Bad Soden (Taunus);FBSO;Rhein-Main;Frankfurt a. M.;suffix
+Bad Vilbel Bahnhof;Bad Vilbel;FVL;Rhein-Main;Frankfurt a. M.;suffix
+Bad Vilbel Südbahnhof;Bad Vilbel Süd;FVLS;Rhein-Main;Frankfurt a. M.;manual
+Bahrenfeld;Bahrenfeld;ABAF;Hamburg;Hamburg;direct
+Baierbrunn;Baierbrunn;MBAB;München;München;direct
+Baiersdorf;Baiersdorf;NBD;Nürnberg;Nürnberg;direct
+Baldham;Baldham;MBDH;München;München;direct
+Bamberg;Bamberg;NBA;Nürnberg;Bamberg;direct
+Barmbek;Barmbek;ABAP;Hamburg;Hamburg;direct
+Baumschulenweg;Baumschulenweg;BBW;Berlin;Berlin;direct
+Bedburg-Hau;Bedburg-Hau;KBH;Rhein-Ruhr;Duisburg;codematch
+Bellevue;Bellevue;BBEV;Berlin;Berlin;direct
+Bergfelde;Bergfelde (b Berlin);BBFE;Berlin;Berlin;regex
+Anhalter Bahnhof;Berlin Anhalter Bahnhof;BAHU;Berlin;Berlin;prefix
+Brandenburger Tor;Berlin Brandenburger Tor;BTOR;Berlin;Berlin;prefix
+Frankfurter Allee;Berlin Frankfurter Allee;BFAL;Berlin;Berlin;prefix
+Hauptbahnhof;Berlin Hauptbahnhof;BL;Berlin;Berlin Hauptbahnhof;prefix
+Ostbahnhof;Berlin Ostbahnhof;BHF;Berlin;Berlin;prefix
+Potsdamer Platz;Berlin Potsdamer Platz;BPOF;Berlin;Berlin;prefix
+Südkreuz;Berlin Südkreuz;BSKR;Berlin;Berlin;prefix
+Zoologischer Garten;Berlin Zoologischer Garten;BZOO;Berlin;Berlin;prefix
+Adlershof;Berlin-Adlershof;BADL;Berlin;Berlin;prefix
+Blankenburg;Berlin-Blankenburg;BBKB;Berlin;Berlin;prefix
+Buch;Berlin-Buch;BBU;Berlin;Berlin;prefix
+Charlottenburg;Berlin-Charlottenburg;BCHB;Berlin;Berlin;prefix
+Berliner Tor;Berliner Tor;ABTS;Hamburg;Hamburg;direct
+Friedrichshagen;Berlin-Friedrichshagen;BFRH;Berlin;Berlin;prefix
+Friedrichstraße;Berlin-Friedrichstraße;BFRI;Berlin;Berlin;prefix
+Frohnau;Berlin-Frohnau;BFOH;Berlin;Berlin;prefix
+Gesundbrunnen;Berlin-Gesundbrunnen;BGS;Berlin;Berlin;prefix
+Grünau;Berlin-Grünau;BGA;Berlin;Berlin;prefix
+Grunewald;Berlin-Grunewald;BGD;Berlin;Berlin;prefix
+Halensee;Berlin-Halensee;BHAL;Berlin;Berlin;prefix
+Hermsdorf;Berlin-Hermsdorf;BHED;Berlin;Berlin;prefix
+Hohenschönhausen;Berlin-Hohenschönhausen;BHSH;Berlin;Berlin;prefix
+Karlshorst;Berlin-Karlshorst;BKH;Berlin;Berlin;prefix
+Karow;Berlin-Karow;BKAR;Berlin;Berlin;prefix
+Kaulsdorf;Berlin-Kaulsdorf;BKD;Berlin;Berlin;prefix
+Köpenick;Berlin-Köpenick;BKP;Berlin;Berlin;prefix
+Lichtenberg;Berlin-Lichtenberg;BLO;Berlin;Berlin;prefix
+Lichterfelde Ost;Berlin-Lichterfelde Ost;BLIH;Berlin;Berlin;prefix
+Lichterfelde West;Berlin-Lichterfelde West;BLWE;Berlin;Berlin;prefix
+Mahlsdorf;Berlin-Mahlsdorf;BMDF;Berlin;Berlin;prefix
+Marienfelde;Berlin-Marienfelde;BMF;Berlin;Berlin;prefix
+Marzahn;Berlin-Marzahn;BMAR;Berlin;Berlin;prefix
+Neukölln;Berlin-Neukölln;BNKN;Berlin;Berlin;prefix
+Nordbahnhof;Berlin-Nordbahnhof;BNB;Berlin;Berlin;prefix
+Pankow;Berlin-Pankow;BPKR;Berlin;Berlin;prefix
+Rummelsburg;Berlin-Rummelsburg;BRH;Berlin;Berlin;prefix
+Schlachtensee;Berlin-Schlachtensee;BSLS;Berlin;Berlin;prefix
+Flughafen Schönefeld;Berlin-Schönefeld Flughafen;BFHS;Berlin;Berlin;manual
+Schöneweide;Berlin-Schöneweide Pbf;BSWP;Berlin;Berlin;prefix
+Schönholz;Berlin-Schönholz;BSNL;Berlin;Berlin;prefix
+Spandau;Berlin-Spandau;BSPD;Berlin;Berlin;prefix
+Spindlersfeld;Berlin-Spindlersfeld;BSPF;Berlin;Berlin;prefix
+Tegel;Berlin-Tegel;BTG;Berlin;Berlin;prefix
+Tempelhof;Berlin-Tempelhof;BTF;Berlin;Berlin;prefix
+Wannsee;Berlin-Wannsee;BWS;Berlin;Berlin;prefix
+Westkreuz;Berlin-Westkreuz;BWKR;Berlin;Berlin;prefix
+Wilhelmsruh;Berlin-Wilhelmsruh;BWM;Berlin;Berlin;prefix
+Zehlendorf;Berlin-Zehlendorf;BZD;Berlin;Berlin;prefix
+Bernau;Bernau (b Berlin);BBRN;Berlin;Potsdam;corrected
+Bernau-Friedenstal;Bernau-Friedenstal;BBRF;Berlin;Berlin;direct
+Betriebsbahnhof Rummelsburg;Betriebsbahnhof Berlin-Rummelsburg;BRB;Berlin;Berlin;manual
+Betriebsbahnhof Schöneweide;Betriebsbahnhof Berlin-Schöneweide;BSCF;Berlin;Berlin;manual
+Beusselstraße;Beusselstraße;BBEU;Berlin;Berlin;direct
+Biesdorf;Biesdorf;BBDF;Berlin;Berlin;direct
+Billwerder-Moorfleet;Billwerder-Moorfleet;ABWM;Hamburg;Hamburg;direct
+Birkenstein;Birkenstein;BBIS;Berlin;Berlin;direct
+Birkenwerder;Birkenwerder (b Berlin);BBI;Berlin;Potsdam;regex
+Blankenese;Blankenese;AB;Hamburg;Hamburg;direct
+Blankenfelde;Blankenfelde (Kr Teltow-Fläming);BBF;Berlin;Cottbus;regex
+Blumenkamp;Blumenkamp;EBKP;Rhein-Ruhr;Duisburg;codematch
+BO Hbf;Bochum Hbf;EBO;Rhein-Ruhr;Essen;codematch
+BO West;Bochum West;EBOW;Rhein-Ruhr;Essen;codematch
+BO Dahlhausen;Bochum-Dahlhausen;EBDA;Rhein-Ruhr;Essen;codematch
+BO Ehrenfeld;Bochum-Ehrenfeld;EBOE;Rhein-Ruhr;Essen;codematch
+BO Hamme;Bochum-Hamme;EBOH;Rhein-Ruhr;Essen;codematch
+BO Langendreer;Bochum-Langendreer;EBP;Rhein-Ruhr;Essen;codematch
+BO Langendreer West;Bochum-Langendreer West;EBW;Rhein-Ruhr;Essen;codematch
+BO Riemke;Bochum-Riemke;EBGZ;Rhein-Ruhr;Essen;codematch
+Boisheim;Boisheim;KBOI;Rhein-Ruhr;Düsseldorf;codematch
+Borgsdorf;Borgsdorf;BBOR;Berlin;Berlin;direct
+Bornholmer Straße;Bornholmer Straße;BBOS;Berlin;Berlin;direct
+Botanischer Garten;Botanischer Garten;BBGT;Berlin;Berlin;direct
+Bottrop Hbf;Bottrop Hbf;EBTH;Rhein-Ruhr;Duisburg;codematch
+BOT Boy;Bottrop-Boy;EBTB;Rhein-Ruhr;Duisburg;codematch
+BOT Vonderort;Bottrop-Vonderort;EBTV;Rhein-Ruhr;Duisburg;codematch
+Friedberg (Hessen)-Bruchenbrücken Bahnhof;Bruchenbrücken;FBB;Rhein-Main;Gießen;manual
+Bubenreuth;Bubenreuth;NBTH;Nürnberg;Nürnberg;direct
+Buchenau;Buchenau (Oberbay);MBAU;München;München;regex
+Büchenbach;Büchenbach;NBUE;Nürnberg;Nürnberg;direct
+Buchenhain;Buchenhain;MBHA;München;München;direct
+Buckower Chaussee;Buckower Chaussee;BBCH;Berlin;Berlin;direct
+Bundesplatz;Bundesplatz;BBUP;Berlin;Berlin;direct
+Burgthann;Burgthann;NBUT;Nürnberg;Nürnberg;direct
+Buttenheim;Buttenheim;NBT;Nürnberg;Bamberg;direct
+Büttgen;Büttgen;KBUT;Rhein-Ruhr;Düsseldorf;codematch
+Buxtehude;Buxtehude;ABX;Hamburg;Hamburg;direct
+Castrop Rauxel Hbf;Castrop-Rauxel Hbf;ECA;Rhein-Ruhr;Essen;codematch
+Castrop Rauxel Merklinde;Castrop-Rauxel-Merklinde;ECME;Rhein-Ruhr;Essen;codematch
+Dachau;Dachau Bahnhof;MDA;München;München;regex
+Dachau Stadt;Dachau Stadt;MDAS;München;München;direct
+Dahl;Dahl;EDHL;Rhein-Ruhr;Hagen;codematch
+Darmstadt Hauptbahnhof;Darmstadt Hbf;FD;Rhein-Main;Darmstadt;regex swap
+Darmstadt-Arheilgen Bahnhof;Darmstadt-Arheilgen;FDA;Rhein-Main;Frankfurt a. M.;suffix
+Darmstadt-Wixhausen Bahnhof;Darmstadt-Wixhausen;FWX;Rhein-Main;Frankfurt a. M.;suffix
+Deisenhofen;Deisenhofen;MDS;München;München;direct
+Deuten;Deuten;EDEU;Rhein-Ruhr;Münster (Westf);codematch
+Diebsteich;Diebsteich;ADT;Hamburg;Hamburg;direct
+Dietzenbach Bahnhof;Dietzenbach Bahnhof;FDZ;Rhein-Main;Frankfurt a. M.;direct
+Dietzenbach Mitte Bahnhof;Dietzenbach-Mitte;FDZM;Rhein-Main;Frankfurt a. M.;regex swap
+Dietzenbach Steinberg Bahnhof;Dietzenbach-Steinberg;FDZS;Rhein-Main;Frankfurt a. M.;regex swap
+Dingden;Dingden;EDGD;Rhein-Ruhr;Duisburg;codematch
+Dinslaken;Dinslaken;EDIN;Rhein-Ruhr;Duisburg;codematch
+Dollern;Dollern;ADR;Hamburg;Hamburg;direct
+Dormagen;Dormagen;KDO;Rhein-Ruhr;Düsseldorf;codematch
+Dorsten;Dorsten;EDRN;Rhein-Ruhr;Münster (Westf);codematch
+Bad Vilbel-Dortelweil Bahnhof;Dortelweil;FDW;Rhein-Main;Frankfurt a. M.;manual
+Dortmund Hbf;Dortmund Hbf;EDO;Rhein-Ruhr;Dortmund;codematch
+DO Signal Iduna Park;Dortmund Signal-Iduna-Park;EDWH;Rhein-Ruhr;Dortmund;codematch
+DO Aplerbeck;Dortmund-Aplerbeck;EDAP;Rhein-Ruhr;Dortmund;codematch
+DO Aplerbeck Süd;Dortmund-Aplerbeck Süd;EDAU;Rhein-Ruhr;Dortmund;codematch
+DO Asseln Mitte;Dortmund-Asseln Mitte;EDAM;Rhein-Ruhr;Dortmund;codematch
+DO Barop;Dortmund-Barop;EDBA;Rhein-Ruhr;Dortmund;codematch
+DO Bövinghausen;Dortmund-Bövinghausen;EDBH;Rhein-Ruhr;Dortmund;codematch
+DO Brackel;Dortmund-Brackel;EDBK;Rhein-Ruhr;Dortmund;codematch
+DO Derne;Dortmund-Derne;EDD;Rhein-Ruhr;Dortmund;codematch
+DO Dorstfeld;Dortmund-Dorstfeld;EDDP;Rhein-Ruhr;Dortmund;codematch
+DO Dorstfeld Süd;Dortmund-Dorstfeld Süd;EDDS;Rhein-Ruhr;Dortmund;codematch
+DO Germania;Dortmund-Germania;EDGM;Rhein-Ruhr;Dortmund;codematch
+DO Hörde;Dortmund-Hörde;EDH;Rhein-Ruhr;Dortmund;codematch
+DO Huckarde;Dortmund-Huckarde;EDOH;Rhein-Ruhr;Dortmund;codematch
+DO Huckarde Nord;Dortmund-Huckarde Nord;EDHU;Rhein-Ruhr;Dortmund;codematch
+DO Kirchderne;Dortmund-Kirchderne;EDKD;Rhein-Ruhr;Dortmund;codematch
+DO Kirchhörde;Dortmund-Kirchhörde;EDKH;Rhein-Ruhr;Dortmund;codematch
+DO Kley;Dortmund-Kley;EDK;Rhein-Ruhr;Dortmund;codematch
+DO Knappschaftskrankenhaus;Dortmund-Knappschaftskrankenhaus;EDKK;Rhein-Ruhr;Dortmund;codematch
+DO Körne;Dortmund-Körne;EDKO;Rhein-Ruhr;Dortmund;codematch
+DO Körne West;Dortmund-Körne West;EDWK;Rhein-Ruhr;Dortmund;codematch
+DO Kruckel;Dortmund-Kruckel;EDKR;Rhein-Ruhr;Dortmund;codematch
+DO Kurl;Dortmund-Kurl;EDKU;Rhein-Ruhr;Dortmund;codematch
+DO Löttringhausen;Dortmund-Löttringhausen;EDLH;Rhein-Ruhr;Dortmund;codematch
+DO Lütgendortmund;Dortmund-Lütgendortmund;EDLS;Rhein-Ruhr;Dortmund;codematch
+DO Lütgendortmund Nord;Dortmund-Lütgendortmund Nord;EDLN;Rhein-Ruhr;Dortmund;codematch
+DO Marten;Dortmund-Marten;EDMR;Rhein-Ruhr;Dortmund;codematch
+DO Marten Süd;Dortmund-Marten Süd;EDMS;Rhein-Ruhr;Dortmund;codematch
+DO Mengede;Dortmund-Mengede;EDMG;Rhein-Ruhr;Dortmund;codematch
+DO Möllerbrücke;Dortmund-Möllerbrücke;EDMB;Rhein-Ruhr;Dortmund;codematch
+DO Nette/Oestrich;Dortmund-Nette/Oestrich;EDOO;Rhein-Ruhr;Dortmund;codematch
+DO Oespel;Dortmund-Oespel;EDOP;Rhein-Ruhr;Dortmund;codematch
+DO Rahm;Dortmund-Rahm;EDRA;Rhein-Ruhr;Dortmund;codematch
+DO Scharnhorst;Dortmund-Scharnhorst;EDSH;Rhein-Ruhr;Dortmund;codematch
+DO Sölde;Dortmund-Sölde;EDSO;Rhein-Ruhr;Dortmund;codematch
+DO Somborn;Dortmund-Somborn;EDSM;Rhein-Ruhr;Dortmund;codematch
+DO Stadthaus;Dortmund-Stadthaus;EDST;Rhein-Ruhr;Dortmund;codematch
+DO Tierpark;Dortmund-Tierpark;EDTP;Rhein-Ruhr;Dortmund;codematch
+DO Universität;Dortmund-Universität;EDUV;Rhein-Ruhr;Dortmund;codematch
+DO West;Dortmund-West;EDW;Rhein-Ruhr;Dortmund;codematch
+DO Westerfilde;Dortmund-Westerfilde;EDOF;Rhein-Ruhr;Dortmund;codematch
+DO Wickede;Dortmund-Wickede;EDWI;Rhein-Ruhr;Dortmund;codematch
+DO Wickede West;Dortmund-Wickede West;EDWW;Rhein-Ruhr;Dortmund;codematch
+DO Wischlingen;Dortmund-Wischlingen;EDOL;Rhein-Ruhr;Dortmund;codematch
+Dreieich-Buchschlag Bahnhof;Dreieich-Buchschlag;FBUS;Rhein-Main;Darmstadt;suffix
+Duisburg Hbf;Duisburg Hbf;EDG;Rhein-Ruhr;Duisburg;codematch
+DU Schlenk;Duisburg Schlenk;EDSL;Rhein-Ruhr;Duisburg;codematch
+DU Bissingheim;Duisburg-Bissingheim;EDBI;Rhein-Ruhr;Duisburg;codematch
+DU Buchholz;Duisburg-Buchholz;EDBU;Rhein-Ruhr;Duisburg;codematch
+DU Entenfang;Duisburg-Entenfang;EDEF;Rhein-Ruhr;Duisburg;codematch
+DU Großenbaum;Duisburg-Großenbaum;EDGR;Rhein-Ruhr;Duisburg;codematch
+DU Meiderich Ost;Duisburg-Meiderich Ost;EDMO;Rhein-Ruhr;Duisburg;codematch
+DU Meiderich Süd;Duisburg-Meiderich Süd;EDME;Rhein-Ruhr;Duisburg;codematch
+DU Obermeiderich;Duisburg-Obermeiderich;EDOM;Rhein-Ruhr;Duisburg;codematch
+DU Rahm;Duisburg-Rahm;EDRM;Rhein-Ruhr;Duisburg;codematch
+DU Ruhrort;Duisburg-Ruhrort;EDRU;Rhein-Ruhr;Duisburg;codematch
+DU Wedau;Duisburg-Wedau;EDWD;Rhein-Ruhr;Duisburg;codematch
+Dürrnhaar;Dürrnhaar;MDHR;München;München;direct
+D Flughafen;Düsseldorf Flughafen;KDFF;Rhein-Ruhr;Düsseldorf;codematch
+Düsseldorf Hbf;Düsseldorf Hbf;KD;Rhein-Ruhr;Düsseldorf;codematch
+D Völklinger Straße;Düsseldorf Völklinger Straße;KDVS;Rhein-Ruhr;Düsseldorf;codematch
+D Volksgarten;Düsseldorf Volksgarten;KDV;Rhein-Ruhr;Düsseldorf;codematch
+D Wehrhahn;Düsseldorf Wehrhahn;KDW;Rhein-Ruhr;Düsseldorf;codematch
+D Zoo;Düsseldorf Zoo;KDZ;Rhein-Ruhr;Düsseldorf;codematch
+D Benrath;Düsseldorf-Benrath;KDBE;Rhein-Ruhr;Düsseldorf;codematch
+D Bilk;Düsseldorf-Bilk;KDBH;Rhein-Ruhr;Düsseldorf;codematch
+D Eller;Düsseldorf-Eller;KDE;Rhein-Ruhr;Düsseldorf;codematch
+D Eller Mitte;Düsseldorf-Eller Mitte;KDEM;Rhein-Ruhr;Düsseldorf;codematch
+D Eller Süd;Düsseldorf-Eller Süd;KDES;Rhein-Ruhr;Düsseldorf;codematch
+D Flingern;Düsseldorf-Flingern;KDFL;Rhein-Ruhr;Düsseldorf;codematch
+D Friedrichstadt;Düsseldorf-Friedrichstadt;KDFS;Rhein-Ruhr;Düsseldorf;codematch
+D Garath;Düsseldorf-Garath;KDGA;Rhein-Ruhr;Düsseldorf;codematch
+D Gerresheim;Düsseldorf-Gerresheim;KDGE;Rhein-Ruhr;Düsseldorf;codematch
+D Hamm;Düsseldorf-Hamm;KDHA;Rhein-Ruhr;Düsseldorf;codematch
+D Hellerhof;Düsseldorf-Hellerhof;KDHL;Rhein-Ruhr;Düsseldorf;codematch
+D Oberbilk;Düsseldorf-Oberbilk;KDOB;Rhein-Ruhr;Düsseldorf;codematch
+D Rath;Düsseldorf-Rath;KDR;Rhein-Ruhr;Düsseldorf;codematch
+D Rath Mitte;Düsseldorf-Rath Mitte;KDRM;Rhein-Ruhr;Düsseldorf;codematch
+D Unterrath;Düsseldorf-Unterrath;KDU;Rhein-Ruhr;Düsseldorf;codematch
+Ebenhausen-Schäftlarn;Ebenhausen-Schäftlarn;MEBS;München;München;direct
+Eberbach Bahnhof;Eberbach;REA;Rhein-Main;Mannheim;suffix
+Ebersberg;Ebersberg (Oberbay);MEG;München;München;regex
+Eching;Eching;MEC;München;München;direct
+Hattersheim (Main)-Eddersheim Bahnhof;Eddersheim;FED;Rhein-Main;Frankfurt a. M.;manual
+Egelsbach Bahnhof;Egelsbach;FEGB;Rhein-Main;Frankfurt a. M.;suffix
+Eggolsheim;Eggolsheim;NEO;Nürnberg;Bamberg;direct
+Eglharting;Eglharting;MEGL;München;München;direct
+Eichborndamm;Eichborndamm;BEBD;Berlin;Berlin;direct
+Eichenau;Eichenau (Oberbay);MEIC;München;München;regex
+Eichwalde;Eichwalde;BEIW;Berlin;Berlin;direct
+Eidelstedt;Eidelstedt;AEST;Hamburg;Hamburg;direct
+Elbgaustraße;Elbgaustraße;AEGS;Hamburg;Hamburg;direct
+Eltersdorf;Eltersdorf;NEF;Nürnberg;Nürnberg;direct
+Emmerich;Emmerich;EEM;Rhein-Ruhr;Duisburg;codematch
+Empel-Rees;Empel-Rees;EEMP;Rhein-Ruhr;Duisburg;codematch
+Ennepetal/Gevelsberg;Ennepetal;EENP;Rhein-Ruhr;Hagen;codematch
+Eppstein Bahnhof;Eppstein;FEP;Rhein-Main;Frankfurt a. M.;suffix
+Eppstein-Bremthal Bahnhof;Eppstein-Bremthal;FEPB;Rhein-Main;Frankfurt a. M.;suffix
+Erding;Erding;MER;München;München;direct
+Erdweg;Erdweg;MEWG;München;München;direct
+Erkner;Erkner;BERK;Berlin;Cottbus;direct
+Erkrath;Erkrath;KER;Rhein-Ruhr;Düsseldorf;codematch
+Erlangen;Erlangen;NER;Nürnberg;Nürnberg;direct
+Bruck;Erlangen-Bruck;NERH;Nürnberg;Nürnberg;manual
+Erzhausen Bahnhof;Erzhausen;FEZS;Rhein-Main;Frankfurt a. M.;suffix
+Eschborn Bahnhof;Eschborn;FES;Rhein-Main;Frankfurt a. M.;suffix
+Eschborn Südbahnhof;Eschborn Süd;FESS;Rhein-Main;Frankfurt a. M.;manual
+Essen Hbf;Essen Hbf;EE;Rhein-Ruhr;Essen;codematch
+E Stadtwald;Essen Stadtwald;EESA;Rhein-Ruhr;Essen;codematch
+E Süd;Essen Süd;EESD;Rhein-Ruhr;Essen;codematch
+E West;Essen West;EENW;Rhein-Ruhr;Essen;codematch
+E Altenessen;Essen-Altenessen;EEAL;Rhein-Ruhr;Essen;codematch
+E Bergeborbeck;Essen-Bergeborbeck;EEBE;Rhein-Ruhr;Essen;codematch
+E Borbeck;Essen-Borbeck;EEBB;Rhein-Ruhr;Essen;codematch
+E Borbeck Süd;Essen-Borbeck Süd;EEBS;Rhein-Ruhr;Essen;codematch
+E Dellwig;Essen-Dellwig;EEDL;Rhein-Ruhr;Essen;codematch
+E Dellwig Ost;Essen-Dellwig Ost;EEDO;Rhein-Ruhr;Essen;codematch
+E Eiberg;Essen-Eiberg;EEIB;Rhein-Ruhr;Essen;codematch
+E Frohnhausen;Essen-Frohnhausen;EEFO;Rhein-Ruhr;Essen;codematch
+E Gerschede;Essen-Gerschede;EEGE;Rhein-Ruhr;Essen;codematch
+E Holthausen;Essen-Holthausen;EEHH;Rhein-Ruhr;Essen;codematch
+E Horst;Essen-Horst;EEHT;Rhein-Ruhr;Essen;codematch
+E Hügel;Essen-Hügel;EEHU;Rhein-Ruhr;Essen;codematch
+E Kray Nord;Essen-Kray Nord;EEKN;Rhein-Ruhr;Essen;codematch
+E Kray Süd;Essen-Kray Süd;EEKS;Rhein-Ruhr;Essen;codematch
+E Kupferdreh;Essen-Kupferdreh;EEKU;Rhein-Ruhr;Essen;codematch
+E Steele;Essen-Steele;EEST;Rhein-Ruhr;Essen;codematch
+E Steele Ost;Essen-Steele Ost;EESO;Rhein-Ruhr;Essen;codematch
+E Überruhr;Essen-Überruhr;EEUE;Rhein-Ruhr;Essen;codematch
+E Werden;Essen-Werden;EEWD;Rhein-Ruhr;Essen;codematch
+E Zollverein Nord;Essen-Zollverein Nord;EEKB;Rhein-Ruhr;Essen;codematch
+Esting;Esting;MESG;München;München;direct
+Fasanenpark;Fasanenpark;MFP;München;München;direct
+Feldafing;Feldafing;MFA;München;München;direct
+Feldhausen;Feldhausen;EFEL;Rhein-Ruhr;Duisburg;codematch
+Feldkirchen;Feldkirchen (b München);MFK;München;München;regex
+Feucht;Feucht;NFT;Nürnberg;Nürnberg;direct
+Feucht Ost;Feucht Ost;NFTO;Nürnberg;Nürnberg;direct
+Moosbach;Feucht-Moosbach;NFTM;Nürnberg;Nürnberg;manual
+Feuerbachstraße;Feuerbachstraße;BFB;Berlin;Berlin;direct
+Fischbach;Fischbach (b Nürnberg);NFIH;Nürnberg;Nürnberg;corrected
+Fischbek;Fischbek;AFIB;Hamburg;Hamburg;direct
+Flörsheim (Main) Bahnhof;Flörsheim (Main);FFH;Rhein-Main;Frankfurt a. M.;suffix
+Flughafen München;Flughafen München;MFHT;München;München;direct
+Flughafen Besucherpark ;Flughafen München Besucherpark;MFHB;München;München;manual
+Forchheim;Forchheim (Oberfr);NFO;Nürnberg;Nürnberg;regex
+Forsthaus;Forsthaus;KFOS;Rhein-Ruhr;Duisburg;codematch
+Frankfurt (Main) Flughafen Regionalbahnhof;Frankfurt (Main) Flughafen Regionalbahnhof;FFLU;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Galluswarte;Frankfurt (Main) Galluswarte;FFGA;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Hauptwache;Frankfurt (Main) Hauptwache;FHAU;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Hauptbahnhof;Frankfurt (Main) Hbf;FF;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Hauptbahnhof tief;Frankfurt (Main) Hbf;FF;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Konstablerwache;Frankfurt (Main) Konstablerwache;FKON;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Lokalbahnhof;Frankfurt (Main) Lokalbahnhof;FLBF;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Mühlberg;Frankfurt (Main) Mühlberg;FMUL;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Niederrad Bahnhof;Frankfurt (Main) Niederrad;FNI;Rhein-Main;Frankfurt a. M.;suffix
+Frankfurt (Main) Ostendstraße;Frankfurt (Main) Ostendstraße;FOST;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Stresemannallee Bahnhof;Frankfurt (Main) Stresemannallee;FSTL;Rhein-Main;Frankfurt a. M.;suffix
+Frankfurt (Main) Südbahnhof;Frankfurt (Main) Süd;FFS;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Taunusanlage;Frankfurt (Main) Taunusanlage;FFTA;Rhein-Main;Frankfurt a. M.;direct
+Frankfurt (Main) Westbahnhof;Frankfurt (Main) West;FFW;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Flughafen Fernbahnhof;Frankfurt am Main Flughafen Fernbahnhof;FFLF;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Messe;Frankfurt am Main Messe;FFME;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Stadion;Frankfurt am Main Stadion;FSP;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Berkersheim Bahnhof;Frankfurt-Berkersheim;FFBK;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Eschersheim Bahnhof;Frankfurt-Eschersheim;FFES;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Frankfurter Berg Bahnhof;Frankfurt-Frankfurter Berg;FFBS;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Griesheim Bahnhof;Frankfurt-Griesheim;FGM;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Höchst Bahnhof;Frankfurt-Höchst;FHOE;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Farbwerke;Frankfurt-Höchst Farbwerke;FFAW;Rhein-Main;Frankfurt a. M.;manual
+Frankfurt (Main) Louisa Bahnhof;Frankfurt-Louisa;FLS;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Nied Bahnhof;Frankfurt-Nied;FFND;Rhein-Main;Frankfurt a. M.;corrected
+Frankfurt (Main) Rödelheim Bahnhof;Frankfurt-Rödelheim;FRH;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Sindlingen Bahnhof;Frankfurt-Sindlingen;FSIN;Rhein-Main;Frankfurt a. M.;prefix
+Frankfurt (Main) Zeilsheim Bahnhof;Frankfurt-Zeilsheim;FFZH;Rhein-Main;Frankfurt a. M.;prefix
+Fredersdorf;Fredersdorf (b Berlin);BFRD;Berlin;Berlin;regex
+Freising;Freising;MFR;München;München;direct
+Friedberg (Hessen) Bahnhof;Friedberg (Hess);FFG;Rhein-Main;Gießen;manual
+Friedenau;Friedenau;BFRU;Berlin;Berlin;direct
+Friedrichsberg;Friedrichsberg;AFBG;Hamburg;Hamburg;direct
+Friedrichsdorf Bahnhof;Friedrichsdorf (Taunus);FFRI;Rhein-Main;Frankfurt a. M.;regex
+Friedrichsfeld;Friedrichsfeld (Niederrhein);EFFD;Rhein-Ruhr;Duisburg;codematch
+Friedrichsfelde Ost;Friedrichsfelde Ost;BFFO;Berlin;Berlin;direct
+Frimmersdorf;Frimmersdorf;KFRI;Rhein-Ruhr;Düsseldorf;codematch
+Fürstenfeldbruck;Fürstenfeldbruck;MFB;München;München;direct
+Furth;Furth (b Deisenhofen);MFU;München;München;regex
+Fürth Hbf;Fürth (Bay) Hbf;NF;Nürnberg;Nürnberg;manual
+Unterfarrnbach;Fürth-Unterfarrnbach;NFUB;Nürnberg;Nürnberg;manual
+Gauting;Gauting;MGT;München;München;direct
+Gehrenseestraße;Gehrenseestraße;BGSE;Berlin;Berlin;direct
+Geisenbrunn;Geisenbrunn;MGIB;München;München;direct
+Geldern;Geldern;KGE;Rhein-Ruhr;Duisburg;codematch
+Gelsenkirchen Hbf;Gelsenkirchen Hbf;EG;Rhein-Ruhr;Essen;codematch
+GE Zoo;Gelsenkirchen Zoo;EGZO;Rhein-Ruhr;Essen;codematch
+GE Buer Nord;Gelsenkirchen-Buer Nord;EGBU;Rhein-Ruhr;Essen;codematch
+GE Buer Süd;Gelsenkirchen-Buer Süd;EGBS;Rhein-Ruhr;Essen;codematch
+GE Hassel;Gelsenkirchen-Hassel;EGHS;Rhein-Ruhr;Essen;codematch
+GE Rotthausen;Gelsenkirchen-Rotthausen;EGRO;Rhein-Ruhr;Essen;codematch
+Geltendorf;Geltendorf;MGE;München;München;direct
+Germering-Unterpfaffenhofen;Germering-Unterpfaffenhofen;MUG;München;München;direct
+Gernlinden;Gernlinden;MGLD;München;München;direct
+Gevelsberg Hbf;Gevelsberg Hbf;EGVH;Rhein-Ruhr;Düsseldorf;codematch
+Gevelsberg West;Gevelsberg West;KGVW;Rhein-Ruhr;Düsseldorf;codematch
+Gevelsberg Kipp;Gevelsberg-Kipp;KGVK;Rhein-Ruhr;Düsseldorf;codematch
+Gevelsberg Knapp;Gevelsberg-Knapp;EGVA;Rhein-Ruhr;Düsseldorf;codematch
+Gilching-Argelsried;Gilching-Argelsried;MGCH;München;München;direct
+Gladbeck Ost;Gladbeck Ost;EGBO;Rhein-Ruhr;Essen;codematch
+Gladbeck West;Gladbeck West;EGBW;Rhein-Ruhr;Essen;codematch
+Goch;Goch;KGO;Rhein-Ruhr;Duisburg;codematch
+Gräfelfing;Gräfelfing;MGFL;München;München;direct
+Grafing Bahnhof;Grafing Bahnhof;MGB;München;München;direct
+Grafing Stadt;Grafing Stadt;MGRS;München;München;direct
+Grafrath;Grafrath;MGF;München;München;direct
+Greifswalder Straße;Greifswalder Straße;BGSS;Berlin;Berlin;direct
+Grevenbroich;Grevenbroich;KGRB;Rhein-Ruhr;Düsseldorf;codematch
+Gröbenzell;Gröbenzell;MGRZ;München;München;direct
+Gronsdorf;Gronsdorf;MGDF;München;München;direct
+Groß-Gerau Dornberg Bahnhof;Groß Gerau-Dornberg;FDG;Rhein-Main;Darmstadt;manual
+Groß-Gerau Dornheim Bahnhof;Groß Gerau-Dornheim;FDOH;Rhein-Main;Darmstadt;manual
+Karben-Groß-Karben Bahnhof;Groß Karben;FGKA;Rhein-Main;Frankfurt a. M.;manual
+Großhelfendorf;Großhelfendorf;MGHD;München;München;direct
+Großhesselohe Isartalbahnhof;Großhesselohe Isartalbahnhof;MGOI;München;München;direct
+Grub;Grub (Oberbay);MGRB;München;München;corrected
+Grünbergallee;Grünbergallee;BGBA;Berlin;Berlin;direct
+Gustorf;Gustorf;KGUS;Rhein-Ruhr;Düsseldorf;codematch
+Haan;Haan;KHAN;Rhein-Ruhr;Düsseldorf;codematch
+Gruiten;Haan-Gruiten;KGUI;Rhein-Ruhr;Düsseldorf;codematch
+Haar;Haar;MHR;München;München;direct
+Hackescher Markt;Hackescher Markt;BHKM;Berlin;Berlin;direct
+Hagen Hbf;Hagen Hbf;EHG;Rhein-Ruhr;Hagen;codematch
+HA Heubing;Hagen-Heubing;EHGI;Rhein-Ruhr;Hagen;codematch
+HA Oberhagen;Hagen-Oberhagen;EHGO;Rhein-Ruhr;Hagen;codematch
+HA Vorhalle;Hagen-Vorhalle;EHGV;Rhein-Ruhr;Hagen;codematch
+HA Wehringhausen;Hagen-Wehringhausen;EHGW;Rhein-Ruhr;Hagen;codematch
+HA Westerbauer;Hagen-Westerbauer;EHWB;Rhein-Ruhr;Hagen;codematch
+Haldern;Haldern (Rheinl);EHAD;Rhein-Ruhr;Duisburg;codematch
+Hallbergmoos;Hallbergmoos;MHMO;München;München;direct
+Halstenbek;Halstenbek;AHKS;Hamburg;Hamburg;direct
+Haltern am See;Haltern am See;EHLT;Rhein-Ruhr;Münster (Westf);codematch
+Hamburg Airport Flughafen;Hamburg Airport (Flughafen);AAI;Hamburg;Hamburg;regex swap
+Dammtor Messe/CCH;Hamburg Dammtor;ADF;Hamburg;Hamburg;manual
+Hamburg Hbf;Hamburg Hbf;AH;Hamburg;Hamburg;direct
+Altona;Hamburg-Altona;AA;Hamburg;Hamburg;prefix
+Bergedorf;Hamburg-Bergedorf;ABG;Hamburg;Hamburg;prefix
+Harburg;Hamburg-Harburg;AHAR;Hamburg;Hamburg;prefix
+Neugraben;Hamburg-Neugraben;ANR;Hamburg;Hamburg;prefix
+Hammerbrook City Süd;Hammerbrook;AHAB;Hamburg;Hamburg;manual
+Hamminkeln;Hamminkeln;EHK;Rhein-Ruhr;Duisburg;codematch
+Hanau Hauptbahnhof;Hanau Hbf;FH;Rhein-Main;Frankfurt a. M.;regex swap
+Happurg;Happurg;NHAP;Nürnberg;Nürnberg;direct
+Harburg Rathaus;Harburg Rathaus;AHRF;Hamburg;Hamburg;direct
+Harthaus;Harthaus;MHHS;München;München;direct
+Hartmannshof;Hartmannshof;NHS;Nürnberg;Nürnberg;direct
+Hasselbrook;Hasselbrook;AHSB;Hamburg;Hamburg;direct
+Hattersheim (Main) Bahnhof;Hattersheim (Main);FHAS;Rhein-Main;Frankfurt a. M.;suffix
+Hattingen (Ruhr);Hattingen (Ruhr);EHAT;Rhein-Ruhr;Essen;codematch
+Hattingen Mitte;Hattingen (Ruhr) Mitte;EHTM;Rhein-Ruhr;Essen;codematch
+Hebertshausen;Hebertshausen;MHSN;München;München;direct
+Heerstraße;Heerstraße;BHST;Berlin;Berlin;direct
+Hegermühle;Hegermühle;BHGM;Berlin;Berlin;direct
+Heidelberger Platz;Heidelberger Platz;BHEI;Berlin;Berlin;direct
+Heiligensee;Heiligensee;BHLS;Berlin;Berlin;direct
+Heilsbronn;Heilsbronn;NHE;Nürnberg;Nürnberg;direct
+Heimfeld;Heimfeld;AHFS;Hamburg;Hamburg;direct
+Heimstetten;Heimstetten;MHEM;München;München;direct
+Henfenfeld;Henfenfeld;NHD;Nürnberg;Nürnberg;direct
+Hennigsdorf;Hennigsdorf (b Berlin);BHND;Berlin;Potsdam;regex
+Herdecke;Herdecke;EHCK;Rhein-Ruhr;Hagen;codematch
+Hermannstraße;Hermannstraße;BHER;Berlin;Berlin;direct
+Herne;Herne;EHER;Rhein-Ruhr;Essen;codematch
+Herne-Börnig;Herne-Börnig;EHBO;Rhein-Ruhr;Essen;codematch
+Herrath;Herrath;KHER;Rhein-Ruhr;Düsseldorf;codematch
+Herrsching;Herrsching;MHI;München;München;direct
+Hersbruck;Hersbruck (links Pegnitz);NHL;Nürnberg;Nürnberg;regex
+Hervest Dorsten;Hervest-Dorsten;EHDT;Rhein-Ruhr;Münster (Westf);codematch
+Heusenstamm Bahnhof;Heusenstamm;FHEU;Rhein-Main;Frankfurt a. M.;suffix
+Hilden;Hilden;KHI;Rhein-Ruhr;Düsseldorf;codematch
+Hilden Süd;Hilden Süd;KHIS;Rhein-Ruhr;Düsseldorf;codematch
+Hirschaid;Hirschaid;NHI;Nürnberg;Bamberg;direct
+Hirschgarten;Hirschgarten;BHI;Berlin;Berlin;direct
+Hirschhorn (Neckar) Bahnhof;Hirschhorn (Neckar);RHO;Rhein-Main;Mannheim;suffix
+Hochdahl;Hochdahl;KHO;Rhein-Ruhr;Düsseldorf;codematch
+Hochdahl Millrath;Hochdahl-Millrath;KHOM;Rhein-Ruhr;Düsseldorf;codematch
+Hochheim (Main) Bahnhof;Hochheim (Main);FHM;Rhein-Main;Frankfurt a. M.;suffix
+Hochkamp;Hochkamp;AHPS;Hamburg;Hamburg;direct
+Hochneukirch;Hochneukirch;KHOK;Rhein-Ruhr;Düsseldorf;codematch
+Hofheim am Taunus Bahnhof;Hofheim (Taunus);FHF;Rhein-Main;Frankfurt a. M.;manual
+Hohen Neuendorf;Hohen Neuendorf (b Berlin);BHN;Berlin;Berlin;regex
+Hohenbrunn;Hohenbrunn;MHOB;München;München;direct
+Hoheneichen;Hoheneichen;AHCH;Hamburg;Hamburg;direct
+Höhenkirchen-Siegertsbrunn;Höhenkirchen-Siegertsbrunn;MHSB;München;München;direct
+Hohenlimburg;Hohenlimburg;EHOG;Rhein-Ruhr;Hagen;codematch
+Hohenschäftlarn;Hohenschäftlarn;MHSL;München;München;direct
+Hohenzollerndamm;Hohenzollerndamm;BHO;Berlin;Berlin;direct
+Höllriegelskreuth;Höllriegelskreuth;MHRK;München;München;direct
+Holstenstraße;Holstenstraße;AHST;Hamburg;Hamburg;direct
+Holzheim;Holzheim (b Neuss);KHOZ;Rhein-Ruhr;Düsseldorf;codematch
+Holzkirchen;Holzkirchen;MHO;München;München;direct
+Hoppegarten (Mark);Hoppegarten (Mark);BHPN;Berlin;Berlin;direct
+Horneburg;Horneburg;AHOG;Hamburg;Hamburg;direct
+Hösel;Hösel;EHOS;Rhein-Ruhr;Düsseldorf;codematch
+Humboldthain;Humboldthain;BHUM;Berlin;Berlin;direct
+Icking;Icking;MIC;München;München;direct
+Markt Indersdorf;Indersdorf;MIDR;München;München;manual
+Innsbrucker Platz;Innsbrucker Platz;BIP;Berlin;Berlin;direct
+Iserbrook;Iserbrook;AIS;Hamburg;Hamburg;direct
+Ismaning;Ismaning;MIS;München;München;direct
+Jannowitzbrücke;Jannowitzbrücke;BJB;Berlin;Berlin;direct
+Jüchen;Jüchen;KJUC;Rhein-Ruhr;Düsseldorf;codematch
+Julius-Leber-Brücke;Julius-Leber-Brücke;BJLB;Berlin;Berlin;direct
+Jungfernheide;Jungfernheide;BJUF;Berlin;Berlin;direct
+Jungfernstieg;Jungfernstieg;AJUS;Hamburg;Hamburg;direct
+Kaldenkirchen;Kaldenkirchen;KKAK;Rhein-Ruhr;Düsseldorf;codematch
+Kapellen Wevelinghoven;Kapellen-Wevelinghoven;KKAW;Rhein-Ruhr;Düsseldorf;codematch
+Karl-Bonhoeffer-Nervenklinik;Karl-Bonhoeffer-Nervenklinik;BKBO;Berlin;Berlin;direct
+Katzwang;Katzwang;NKG;Nürnberg;Nürnberg;direct
+Kelsterbach Bahnhof;Kelsterbach;FKCH;Rhein-Main;Frankfurt a. M.;suffix
+Kempen;Kempen (Niederrhein);KKEM;Rhein-Ruhr;Duisburg;codematch
+Kersbach;Kersbach;NKCH;Nürnberg;Nürnberg;direct
+Kettwig;Kettwig;EKG;Rhein-Ruhr;Essen;codematch
+Kettwig Stausee;Kettwig Stausee;EKGS;Rhein-Ruhr;Essen;codematch
+Kevelaer;Kevelaer;KKEV;Rhein-Ruhr;Duisburg;codematch
+Kirchseeon;Kirchseeon;MKO H;München;München;direct
+Klein Flottbek Botanischer Garten;Klein Flottbek;AFB;Hamburg;Hamburg;manual
+Kleinberghofen;Kleinberghofen;MKHN;München;München;direct
+Kleinenbroich;Kleinenbroich;KKLE;Rhein-Ruhr;Düsseldorf;codematch
+Kleve;Kleve;KKLV;Rhein-Ruhr;Duisburg;codematch
+Köllnische Heide;Köllnische Heide;BKHD;Berlin;Berlin;direct
+Königs Wusterhausen;Königs Wusterhausen;BKW;Berlin;Cottbus;direct
+Königstraße;Königstraße;AKS;Hamburg;Hamburg;direct
+Kornweg Klein Borstel;Kornweg (Klein Borstel);AKWS;Hamburg;Hamburg;regex swap
+Korschenbroich;Korschenbroich;KKOI;Rhein-Ruhr;Düsseldorf;codematch
+Krefeld Hbf;Krefeld Hbf;KKR;Rhein-Ruhr;Duisburg;codematch
+KR-Hohenbudberg Chempark;Krefeld-Hohenbudberg Chempark;KHB;Rhein-Ruhr;Duisburg;codematch
+KR Linn;Krefeld-Linn;KKRL;Rhein-Ruhr;Duisburg;codematch
+KR Oppum;Krefeld-Oppum;KKRO;Rhein-Ruhr;Duisburg;codematch
+KR Uerdingen;Krefeld-Uerdingen;KKRX;Rhein-Ruhr;Duisburg;codematch
+Kreuzstraße;Kreuzstraße;MKZ;München;München;direct
+Kriftel Bahnhof;Kriftel;FKRI;Rhein-Main;Frankfurt a. M.;suffix
+Kronberg (Taunus) Bahnhof;Kronberg (Taunus);FKRO;Rhein-Main;Frankfurt a. M.;suffix
+Kronberg (Taunus) Süd;Kronberg (Taunus) Süd;FKRS;Rhein-Main;Frankfurt a. M.;direct
+Krupunder;Krupunder;AKRS;Hamburg;Hamburg;direct
+Landsberger Allee;Landsberger Allee;BLST;Berlin;Berlin;direct
+Landungsbrücken;Landungsbrücken;ALAS;Hamburg;Hamburg;direct
+Landwehr;Landwehr;ALAN;Hamburg;Hamburg;direct
+Langen (Hessen) Bahnhof;Langen (Hess);FLG;Rhein-Main;Darmstadt;manual
+Langenfeld;Langenfeld (Rheinl);KLA;Rhein-Ruhr;Düsseldorf;codematch
+Langenfeld Berghausen;Langenfeld (Rheinl)-Berghausen;KLAB;Rhein-Ruhr;Düsseldorf;codematch
+Langenfelde;Langenfelde;ALST;Hamburg;Hamburg;direct
+Langen (Hessen) Flugsicherung;Langen-Flugsicherung;FLGF;Rhein-Main;Darmstadt;manual
+Lankwitz;Lankwitz;BLAK;Berlin;Berlin;direct
+Lauf;Lauf (links Pegnitz);NLL;Nürnberg;Nürnberg;regex
+Lauf West;Lauf West;NLLW;Nürnberg;Nürnberg;direct
+Lehnitz;Lehnitz;BLEN;Berlin;Berlin;direct
+Lembeck;Lembeck;ELBK;Rhein-Ruhr;Münster (Westf);codematch
+Lichtenrade;Lichtenrade;BLRD;Berlin;Berlin;direct
+Lichterfelde Süd;Lichterfelde Süd;BLIS;Berlin;Berlin;direct
+Lochham;Lochham;MLCH;München;München;direct
+Lohhof;Lohhof;MLH;München;München;direct
+Hofheim am Taunus-Lorsbach Bahnhof;Lorsbach;FLB;Rhein-Main;Frankfurt a. M.;manual
+Ludersheim;Ludersheim;NLHM;Nürnberg;Nürnberg;direct
+Mahlow;Mahlow;BMAH;Berlin;Berlin;direct
+Mainz Hauptbahnhof;Mainz Hbf;FMZ;Rhein-Main;Mainz;regex swap
+Mainz Nordbahnhof;Mainz Nord;FMN;Rhein-Main;Mainz;manual
+Mainz Römisches Theater Bahnhof;Mainz Römisches Theater;FMS;Rhein-Main;Mainz;suffix
+Mainz-Bischofsheim Bahnhof;Mainz-Bischofsheim;FMB;Rhein-Main;Frankfurt a. M.;suffix
+Ginsheim-Gustavsburg Mainz-Gustavsburg Bf;Mainz-Gustavsburg;FMG;Rhein-Main;Frankfurt a. M.;manual
+Wiesbaden-Mainz-Kastel Bahnhof;Mainz-Kastel;FMK;Rhein-Main;Darmstadt;manual
+Mainz-Laubenheim Bahnhof;Mainz-Laubenheim;FML;Rhein-Main;Mainz;suffix
+Maisach;Maisach;MMA;München;München;direct
+Malching;Malching (Oberbay);MMAG;München;München;regex
+Mammendorf;Mammendorf;MMAM;München;München;direct
+Markt Schwaben;Markt Schwaben;MSB;München;München;direct
+Marl Mitte;Marl Mitte;EMAM;Rhein-Ruhr;Münster (Westf);codematch
+Marl Hamm;Marl-Hamm;EMHM;Rhein-Ruhr;Münster (Westf);codematch
+Marl Sinsen;Marl-Sinsen;EMSI;Rhein-Ruhr;Münster (Westf);codematch
+Meerbusch Osterrath;Meerbusch-Osterath;KMBO;Rhein-Ruhr;Duisburg;codematch
+Mehrhoog;Mehrhoog;EMHO;Rhein-Ruhr;Duisburg;codematch
+Mehrower Allee;Mehrower Allee;BMEA;Berlin;Berlin;direct
+Messe Nord / ICC (Witzleben);Messe Nord / ICC (Witzleben);BMN;Berlin;Berlin;direct
+Messe Süd (Eichkamp);Messe Süd (Eichkamp);BMS;Berlin;Berlin;direct
+Mexikoplatz;Mexikoplatz;BMEX;Berlin;Berlin;direct
+Millingen;Millingen;KMIL;Rhein-Ruhr;Duisburg;codematch
+Millingen (Rees);Millingen (Kr Rees);EMIL;Rhein-Ruhr;Duisburg;codematch
+Mimberg;Mimberg;NMIM;Nürnberg;Nürnberg;direct
+Mittlerer Landweg;Mittlerer Landweg;AML;Hamburg;Hamburg;direct
+Moers;Moers;KMO;Rhein-Ruhr;Duisburg;codematch
+Mönchengladbach Hbf;Mönchengladbach Hbf;KM;Rhein-Ruhr;Düsseldorf;codematch
+MG Genhausen;Mönchengladbach-Genhausen;KMGE;Rhein-Ruhr;Düsseldorf;codematch
+MG Lürrip;Mönchengladbach-Lürrip;KML;Rhein-Ruhr;Düsseldorf;codematch
+MG Rheindahlen;Mönchengladbach-Rheindahlen;KMR;Rhein-Ruhr;Düsseldorf;codematch
+Mörfelden-Walldorf-Mörfelden Bahnhof;Mörfelden;FMF;Rhein-Main;Darmstadt;manual
+Mühlenbeck-Mönchmühle;Mühlenbeck-Mönchmühle;BMM;Berlin;Berlin;direct
+Mühlheim (Main) Bahnhof;Mühlheim (Main);FMH;Rhein-Main;Frankfurt a. M.;suffix
+Mühlheim (Main)-Dietesheim S-Bahn;Mühlheim-Dietesheim;FMHD;Rhein-Main;Frankfurt a. M.;manual
+Mülheim (Ruhr) Hbf;Mülheim (Ruhr) Hbf;EMLR;Rhein-Ruhr;Duisburg;codematch
+MH (Ruhr) West;Mülheim (Ruhr) West;EMRW;Rhein-Ruhr;Duisburg;codematch
+MH Styrum;Mülheim (Ruhr)-Styrum;EMRY;Rhein-Ruhr;Duisburg;codematch
+Donnersbergerbrücke;München Donnersbergerbrücke;MMDN;München;München;prefix
+Harras;München Harras;MHAR;München;München;prefix
+Hauptbahnhof München;München Hbf;MH;München;München;manual
+Heimeranplatz;München Heimeranplatz;MHP;München;München;prefix
+Isartor;München Isartor;MIT;München;München;prefix
+Karlsplatz (Stachus);München Karlsplatz;MKA;München;München;manual
+Leienfelsstraße;München Leienfelsstraße;MLEF;München;München;prefix
+Leuchtenbergring;München Leuchtenbergring;MLEU;München;München;prefix
+Marienplatz München;München Marienplatz;MMP;München;München;manual
+Ostbahnhof München;München Ost;MOP;München;München;manual
+Rosenheimer Platz;München Rosenheimer Platz;MRP;München;München;prefix
+Siemenswerke;München Siemenswerke;MSW;München;München;prefix
+St.-Martin-Straße;München St Martin Straße;MMAR;München;München;manual
+Allach;München-Allach;MMAL;München;München;prefix
+Aubing;München-Aubing;MMAU;München;München;prefix
+Berg am Laim;München-Berg am Laim;MBAL;München;München;prefix
+Daglfing;München-Daglfing;MDFG;München;München;prefix
+Englschalking;München-Englschalking;MEGS;München;München;prefix
+Fasanerie;München-Fasanerie;MFAS;München;München;prefix
+Fasangarten;München-Fasangarten;MFG;München;München;prefix
+Feldmoching;München-Feldmoching;MFE;München;München;prefix
+Freiham;München-Freiham;MFH;München;München;prefix
+Giesing;München-Giesing;MGI;München;München;prefix
+Hackerbrücke;München-Hackerbrücke;MHAB;München;München;prefix
+Hirschgarten;München-Hirschgarten;MMHG;München;München;prefix
+Johanneskirchen;München-Johanneskirchen;MJK;München;München;prefix
+Karlsfeld;München-Karlsfeld;MKFS;München;München;prefix
+Laim;München-Laim Pbf;ML;München;München;prefix
+Langwied;München-Langwied;MLW;München;München;prefix
+Lochhausen;München-Lochhausen;MLO;München;München;prefix
+Mittersendling;München-Mittersendling;MMT;München;München;prefix
+Moosach;München-Moosach;MMCH;München;München;prefix
+Neuaubing;München-Neuaubing;MNA;München;München;prefix
+Neuperlach Süd;München-Neuperlach Süd;MNPS;München;München;prefix
+Obermenzing;München-Obermenzing;MOZ;München;München;prefix
+Pasing;München-Pasing;MP;München;München;prefix
+Perlach;München-Perlach;MPER;München;München;prefix
+Riem;München-Riem Pbf;MRI;München;München;prefix
+Solln;München-Solln;MSN;München;München;prefix
+Trudering;München-Trudering;MTR;München;München;prefix
+Untermenzing;München-Untermenzing;MAUG;München;München;prefix
+Westkreuz;München-Westkreuz;MWKR;München;München;prefix
+Nettelnburg;Nettelnburg;ANTB;Hamburg;Hamburg;direct
+Breyell;Nettetal-Breyell;KBRY;Rhein-Ruhr;Düsseldorf;codematch
+Neu-Isenburg Bahnhof;Neu Isenburg;FNIS;Rhein-Main;Frankfurt a. M.;regex swap
+Neu Wulmstorf;Neu Wulmstorf;ANWF;Hamburg;Hamburg;direct
+Neubiberg;Neubiberg;MNB;München;München;direct
+Neuenhagen;Neuenhagen (b Berlin);BNG;Berlin;Berlin;regex
+Neufahrn;Neufahrn (b Freising);MNF;München;München;regex
+Neugilching;Neugilching;MNGH;München;München;direct
+Neukloster;Neukloster (Kr Stade);ANL;Hamburg;Hamburg;regex
+Neumarkt;Neumarkt (Oberpf);NNT;Nürnberg;Nürnberg;regex
+NE Allerheiligen;Neuss Allerheiligen;KNAL;Rhein-Ruhr;Düsseldorf;codematch
+NE Am Kaiser;Neuss Am Kaiser;KNAK;Rhein-Ruhr;Düsseldorf;codematch
+Neuss Hbf;Neuss Hbf;KN;Rhein-Ruhr;Düsseldorf;codematch
+NE Rheinpark Center;Neuss Rheinpark-Center;KNRC;Rhein-Ruhr;Düsseldorf;codematch
+NE Süd;Neuss Süd;KNSD;Rhein-Ruhr;Düsseldorf;codematch
+Neuwiedenthal;Neuwiedenthal;ANWS;Hamburg;Hamburg;direct
+Wöllstadt-Nieder-Wöllstadt Bahnhof;Nieder Wöllstadt;FNRW;Rhein-Main;Frankfurt a. M.;manual
+Eschborn-Niederhöchstadt Bahnhof;Niederhöchstadt;FNH;Rhein-Main;Frankfurt a. M.;manual
+Eppstein-Niederjosbach Bahnhof;Niederjosbach;FNJ;Rhein-Main;Frankfurt a. M.;manual
+Niedernhausen Bahnhof;Niedernhausen (Taunus);FNSD;Rhein-Main;Darmstadt;regex
+Niederroth;Niederroth;MNRO;München;München;direct
+Nieukerk;Nieukerk;KNIK;Rhein-Ruhr;Duisburg;codematch
+Nievenheim;Nievenheim;KNIV;Rhein-Ruhr;Düsseldorf;codematch
+Nikolassee;Nikolassee;BNIS;Berlin;Berlin;direct
+Nöldnerplatz;Nöldnerplatz;BNPL;Berlin;Berlin;direct
+Norf;Norf;KNO;Rhein-Ruhr;Düsseldorf;codematch
+Nürnberg Hbf;Nürnberg Hbf;NN;Nürnberg;Nürnberg;direct
+Rothenburgerstraße;Nürnberg Rothenburger Straße;NNRS;Nürnberg;Nürnberg;manual
+Dürrenhof;Nürnberg-Dürrenhof;NDHF;Nürnberg;Nürnberg;prefix
+Dutzendteich;Nürnberg-Dutzendteich;NND;Nürnberg;Nürnberg;prefix
+Eibach;Nürnberg-Eibach;NNEI;Nürnberg;Nürnberg;prefix
+Frankenstadion;Nürnberg-Frankenstadion;NSTD;Nürnberg;Nürnberg;prefix
+Gleißhammer;Nürnberg-Gleißhammer;NGLH;Nürnberg;Nürnberg;prefix
+Laufamholz;Nürnberg-Laufamholz;NNLH;Nürnberg;Nürnberg;prefix
+Mögeldorf;Nürnberg-Mögeldorf;NNMO;Nürnberg;Nürnberg;prefix
+Ostring;Nürnberg-Ostring;NNOS;Nürnberg;Nürnberg;prefix
+Rehhof;Nürnberg-Rehhof;NNRH;Nürnberg;Nürnberg;prefix
+Reichelsdorf;Nürnberg-Reichelsdorf;NNRE;Nürnberg;Nürnberg;prefix
+Sandreuth;Nürnberg-Sandreuth;NNSR;Nürnberg;Nürnberg;prefix
+Schweinau;Nürnberg-Schweinau;NNSW;Nürnberg;Nürnberg;prefix
+Stein;Nürnberg-Stein;NNST;Nürnberg;Nürnberg;prefix
+Steinbühl;Nürnberg-Steinbühl;NNSE;Nürnberg;Nürnberg;prefix
+Oberasbach;Oberasbach;NOA;Nürnberg;Nürnberg;direct
+Oberferrieden;Oberferrieden;NOB;Nürnberg;Nürnberg;direct
+Oberhausen Hbf;Oberhausen Hbf;EOB;Rhein-Ruhr;Duisburg;codematch
+OB Holten;Oberhausen-Holten;EOHT;Rhein-Ruhr;Duisburg;codematch
+OB Osterfeld Süd;Oberhausen-Osterfeld Süd;EOS;Rhein-Ruhr;Duisburg;codematch
+OB Sterkrade;Oberhausen-Sterkrade;EOSD;Rhein-Ruhr;Duisburg;codematch
+Oberschleißheim;Oberschleißheim;MOSM;München;München;direct
+Oberspree;Oberspree;BOSP;Berlin;Berlin;direct
+Obertshausen Bahnhof;Obertshausen (Kr Offenbach);FOTS;Rhein-Main;Frankfurt a. M.;regex
+Oberursel (Taunus) Bahnhof;Oberursel (Taunus);FOU;Rhein-Main;Frankfurt a. M.;suffix
+Oberursel (Taunus)-Stierstadt Bahnhof;Oberursel-Stierstadt;FOUS;Rhein-Main;Frankfurt a. M.;manual
+Oberursel (Taunus)-Weißkirchen-Steinbach Bahnhof;Oberursel-Weißkirchen/Steinbach;FWN;Rhein-Main;Frankfurt a. M.;manual
+Ochenbruck;Ochenbruck;NOK;Nürnberg;Nürnberg;direct
+Offenbach (Main) Hauptbahnhof;Offenbach (Main) Hbf;FO;Rhein-Main;Frankfurt a. M.;manual
+Offenbach (Main) Ostbahnhof;Offenbach (Main) Ost;FOO;Rhein-Main;Frankfurt a. M.;manual
+Offenbach (Main) Ledermuseum;Offenbach Ledermuseum;FOLM;Rhein-Main;Frankfurt a. M.;manual
+Offenbach (Main) Marktplatz S-Bahn;Offenbach Marktplatz;FOMP;Rhein-Main;Frankfurt a. M.;manual
+Offenbach (Main) Bieber Bahnhof;Offenbach-Bieber;FOBI;Rhein-Main;Frankfurt a. M.;manual
+Offenbach (Main) Kaiserlei S-Bahn;Offenbach-Kaiserlei;FOKL;Rhein-Main;Frankfurt a. M.;manual
+Offenbach (Main) Bieber Waldhof;Offenbach-Waldhof;FOWH;Rhein-Main;Frankfurt a. M.;manual
+Ohlsdorf;Ohlsdorf;AOP;Hamburg;Hamburg;direct
+Karben-Okarben Bahnhof;Okarben;FOK;Rhein-Main;Frankfurt a. M.;manual
+Olching;Olching;MOL;München;München;direct
+Olympiastadion;Olympiastadion;BOLS;Berlin;Berlin;direct
+Oranienburg;Oranienburg;BOR;Berlin;Potsdam;direct
+Oranienburger Straße;Oranienburger Straße;BORS;Berlin;Berlin;direct
+Osdorfer Straße;Osdorferstraße;BOSS;Berlin;Berlin;manual
+Ostkreuz;Ostkreuz;BOK;Berlin;Berlin;direct
+Othmarschen;Othmarschen;AOH;Hamburg;Hamburg;direct
+Ottenhofen;Ottenhofen (Oberbay);MONH;München;München;regex
+Ottensoos;Ottensoos;NOTS;Nürnberg;Nürnberg;direct
+Otterfing;Otterfing;MOTF;München;München;direct
+Ottobrunn;Ottobrunn;MOBR;München;München;direct
+Pankow-Heinersdorf;Pankow-Heinersdorf;BPHD;Berlin;Berlin;direct
+Peiß;Peiß;MPEI;München;München;direct
+Petershagen Nord;Petershagen Nord;BPEN;Berlin;Berlin;direct
+Petershausen;Petershausen (Oberbay);MPE;München;München;regex
+Pichelsberg;Pichelsberg;BPIC;Berlin;Berlin;direct
+Pinneberg;Pinneberg;AP;Hamburg;Hamburg;direct
+Planegg;Planegg (Krailling);MPL;München;München;regex
+Plänterwald;Plänterwald;BPWA;Berlin;Berlin;direct
+Poelchaustraße;Poelchaustraße;BPOE;Berlin;Berlin;direct
+Poing;Poing;MPO;München;München;direct
+Pölling;Pölling;NPG;Nürnberg;Nürnberg;direct
+Pommelsbrunn;Pommelsbrunn;NPMH;Nürnberg;Nürnberg;direct
+Poppenbüttel;Poppenbüttel;APB;Hamburg;Hamburg;direct
+Possenhofen;Possenhofen;MPH;München;München;direct
+Postbauer-Heng;Postbauer-Heng;NPOH;Nürnberg;Nürnberg;direct
+Potsdam Griebnitzsee;Potsdam Griebnitzsee;BGBS;Berlin;Potsdam;direct
+Potsdam Hbf;Potsdam Hbf;BPD;Berlin;Potsdam;direct
+Praest;Praest;EPRA;Rhein-Ruhr;Duisburg;codematch
+Prenzlauer Allee;Prenzlauer Allee;BPLA;Berlin;Berlin;direct
+Priesterweg;Priesterweg;BPRS;Berlin;Berlin;direct
+Puchheim;Puchheim;MPM;München;München;direct
+Pullach;Pullach;MPUL;München;München;direct
+Pulling;Pulling (b Freising);MPU;München;München;regex
+Rahnsdorf;Rahnsdorf;BRD;Berlin;Berlin;direct
+Raitersaich;Raitersaich;NRAH;Nürnberg;Nürnberg;direct
+Raoul-Wallenberg-Straße;Raoul-Wallenberg-Straße;BRW;Berlin;Berlin;direct
+Rathaus Steglitz;Rathaus Steglitz;BRST;Berlin;Berlin;direct
+Ratingen Ost;Ratingen Ost;KRAO;Rhein-Ruhr;Düsseldorf;codematch
+Raunheim Bahnhof;Raunheim;FRA;Rhein-Main;Frankfurt a. M.;suffix
+Recklinghausen Hbf;Recklinghausen Hbf;ERE;Rhein-Ruhr;Münster (Westf);codematch
+Recklinghausen Süd;Recklinghausen Süd;ERES;Rhein-Ruhr;Münster (Westf);codematch
+Rednitzhembach;Rednitzhembach;NRCH;Nürnberg;Nürnberg;direct
+Reeperbahn;Reeperbahn;ARES;Hamburg;Hamburg;direct
+Reichelsdorfer Keller;Reichelsdorfer Keller;NREK;Nürnberg;Nürnberg;direct
+Reinbek;Reinbek;ARBK;Hamburg;Hamburg;direct
+Remscheid Hbf;Remscheid Hbf;KR;Rhein-Ruhr;Düsseldorf;codematch
+RS Güldenwerth;Remscheid-Güldenwerth;KRG;Rhein-Ruhr;Düsseldorf;codematch
+RS Lennep;Remscheid-Lennep;KRL;Rhein-Ruhr;Düsseldorf;codematch
+RS Lüttringhausen;Remscheid-Lüttringhausen;KRLU;Rhein-Ruhr;Düsseldorf;codematch
+Rhade;Rhade;ERHA;Rhein-Ruhr;Münster (Westf);codematch
+Rheinberg;Rheinberg (Rheinl);KRBE;Rhein-Ruhr;Duisburg;codematch
+Rheinhausen;Rheinhausen;KRH;Rhein-Ruhr;Duisburg;codematch
+Rheinhausen Ost;Rheinhausen Ost;KRHO;Rhein-Ruhr;Duisburg;codematch
+Rheydt Hbf;Rheydt Hbf;KRY;Rhein-Ruhr;Düsseldorf;codematch
+Rheydt Odenkirchen;Rheydt-Odenkirchen;KRYO;Rhein-Ruhr;Düsseldorf;codematch
+Riedstadt-Goddelau Bahnhof;Riedstadt-Goddelau;FGE;Rhein-Main;Darmstadt;suffix
+Riedstadt-Wolfskehlen Bahnhof;Riedstadt-Wolfskehlen;FLW;Rhein-Main;Darmstadt;suffix
+Rissen;Rissen;ARI;Hamburg;Hamburg;direct
+Rödermark-Ober-Roden Bahnhof;Rödermark-Ober Roden;FORD;Rhein-Main;Darmstadt;manual
+Rodgau-Dudenhofen Bahnhof;Rodgau-Dudenhofen;FDU;Rhein-Main;Frankfurt a. M.;suffix
+Rodgau-Hainhausen Bahnhof;Rodgau-Hainhausen;FHHN;Rhein-Main;Frankfurt a. M.;suffix
+Rodgau-Jügesheim Bahnhof;Rodgau-Jügesheim;FJUE;Rhein-Main;Frankfurt a. M.;suffix
+Rodgau-Nieder-Roden Bahnhof;Rodgau-Nieder Roden;FNRO;Rhein-Main;Frankfurt a. M.;manual
+Rodgau-Nieder-Roden Rollwald Bahnhof;Rodgau-Rollwald;FROL;Rhein-Main;Frankfurt a. M.;manual
+Rodgau-Weiskirchen Bahnhof;Rodgau-Weiskirchen;FWEK;Rhein-Main;Frankfurt a. M.;suffix
+Röhrmoos;Röhrmoos;MRM;München;München;direct
+Rommerskirchen;Rommerskirchen;KROM;Rhein-Ruhr;Köln;codematch
+Röntgental;Röntgental;BRGT;Berlin;Berlin;direct
+Roßtal;Roßtal;NRL;Nürnberg;Nürnberg;direct
+Roßtal-Wegbrücke ;Roßtal-Wegbrücke;NRW;Nürnberg;Nürnberg;manual
+Roth;Roth;NRO;Nürnberg;Nürnberg;direct
+Seespitze;Röthenbach-Seespitze;NRPE;Nürnberg;Nürnberg;manual
+Steinberg;Röthenbach-Steinberg;NRPG;Nürnberg;Nürnberg;manual
+Rothenburgsort;Rothenburgsort;AROP;Hamburg;Hamburg;direct
+Rübenkamp City Nord;Rübenkamp;ARP;Hamburg;Hamburg;manual
+Rumeln;Rumeln;KRUM;Rhein-Ruhr;Duisburg;codematch
+Rummenohl;Rummenohl;EROL;Rhein-Ruhr;Hagen;codematch
+Rüsselsheim Bahnhof;Rüsselsheim;FRUE;Rhein-Main;Frankfurt a. M.;suffix
+Rüsselsheim Opelwerk Bahnhof;Rüsselsheim Opelwerk;FRUO;Rhein-Main;Frankfurt a. M.;suffix
+Sachsen;Sachsen (b Ansbach);NSA;Nürnberg;Nürnberg;corrected
+Sauerlach;Sauerlach;MSR;München;München;direct
+Savignyplatz;Savignyplatz;BSAP;Berlin;Berlin;direct
+Schichauweg;Schichauweg;BSC;Berlin;Berlin;direct
+Schöneberg;Schöneberg;BSGR;Berlin;Berlin;direct
+Schönfließ;Schönfließ;BSFL;Berlin;Berlin;direct
+Schöngeising;Schöngeising;MSNG;München;München;direct
+Schönhauser Allee;Schönhauser Allee;BSAL;Berlin;Berlin;direct
+Schulzendorf;Schulzendorf (b Tegel);BSZF;Berlin;Berlin;regex
+Schwabach;Schwabach;NSC;Nürnberg;Nürnberg;direct
+Limbach;Schwabach-Limbach;NSCL;Nürnberg;Nürnberg;corrected
+Schwabhausen;Schwabhausen (b Dachau);MSHH;München;München;regex
+Schwaig;Schwaig;NSAI;Nürnberg;Nürnberg;direct
+Schwalbach (Taunus) Limes Bahnhof;Schwalbach a Ts (Limes);FSTS;Rhein-Main;Frankfurt a. M.;manual
+Schwalbach (Taunus) Nord;Schwalbach Nord;FSLN;Rhein-Main;Frankfurt a. M.;manual
+Schwelm;Schwelm;KSWE;Rhein-Ruhr;Düsseldorf;codematch
+Schwelm West;Schwelm West;KSWW;Rhein-Ruhr;Düsseldorf;codematch
+Seefeld-Hechendorf;Seefeld-Hechendorf;MSH;München;München;direct
+Friedrichsdorf-Seulberg Bahnhof;Seulberg;FSG;Rhein-Main;Frankfurt a. M.;manual
+Solingen Hbf;Solingen Hbf;KSO;Rhein-Ruhr;Düsseldorf;codematch
+SG Vogelpark;Solingen Vogelpark;KSV;Rhein-Ruhr;Düsseldorf;codematch
+SG Grünewald;Solingen-Grünewald;KSGR;Rhein-Ruhr;Düsseldorf;codematch
+Solingen Mitte;Solingen-Mitte;KSM;Rhein-Ruhr;Düsseldorf;codematch
+SG Schaberg;Solingen-Schaberg;KSS;Rhein-Ruhr;Düsseldorf;codematch
+Sonnenallee;Sonnenallee;BSO;Berlin;Berlin;direct
+Springpfuhl;Springpfuhl;BSPH;Berlin;Berlin;direct
+St. Koloman;St. Koloman;MKL;München;München;direct
+Stade;Stade;AST;Hamburg;Hamburg;direct
+Stadthausbrücke;Stadthausbrücke;ASHS;Hamburg;Hamburg;direct
+Starnberg;Starnberg;MST;München;München;direct
+Starnberg Nord;Starnberg-Nord;MSNO;München;München;regex swap
+Steinebach;Steinebach;MSA;München;München;direct
+Hanau-Steinheim (Main) Bahnhof;Steinheim/Main;FSHM;Rhein-Main;Frankfurt a. M.;manual
+Stellingen Arenen;Stellingen;ASTS;Hamburg;Hamburg;manual
+Sternschanze Messe;Sternschanze;ASTZ;Hamburg;Hamburg;manual
+Stockdorf;Stockdorf;MSD;München;München;direct
+Storkower Straße;Storkower Straße;BSTO;Berlin;Berlin;direct
+Strausberg;Strausberg;BST;Berlin;Cottbus;direct
+Strausberg Nord;Strausberg Nord;BSTN;Berlin;Berlin;direct
+Strausberg Stadt;Strausberg Stadt;BSTR;Berlin;Berlin;direct
+Stresow;Stresow;BSRW;Berlin;Berlin;direct
+Strullendorf;Strullendorf;NSU;Nürnberg;Bamberg;direct
+Südende;Südende;BSDE;Berlin;Berlin;direct
+Sülldorf;Sülldorf;ASDF;Hamburg;Hamburg;direct
+Sulzbach (Taunus) Nordbahnhof;Sulzbach (Taunus) Nord;FSZN;Rhein-Main;Frankfurt a. M.;manual
+Sundgauer Straße;Sundgauer Straße;BSDG;Berlin;Berlin;direct
+Sythen;Sythen;ESYH;Rhein-Ruhr;Münster (Westf);codematch
+Taufkirchen;Taufkirchen;MTU;München;München;direct
+Teltow Stadt;Teltow Stadt;BTLS;Berlin;Berlin;direct
+Thesdorf;Thesdorf;ATHS;Hamburg;Hamburg;direct
+Tiefstack;Tiefstack;ATK;Hamburg;Hamburg;direct
+Tiergarten;Tiergarten;BTGN;Berlin;Berlin;direct
+Treptower Park;Treptower Park;BTP;Berlin;Berlin;direct
+Trompet;Trompet;KTR;Rhein-Ruhr;Duisburg;codematch
+Türkenfeld;Türkenfeld;MTFD;München;München;direct
+Tutzing;Tutzing;MTZ;München;München;direct
+Unterasbach;Unterasbach;NUA;Nürnberg;Nürnberg;direct
+Unterföhring;Unterföhring;MUFG;München;München;direct
+Unterhaching;Unterhaching;MUH;München;München;direct
+Unterschleißheim;Unterschleißheim;MUSM;München;München;direct
+Vach;Vach;NVA;Nürnberg;Nürnberg;direct
+Vaterstetten;Vaterstetten;MVS;München;München;direct
+Veddel BallinStadt;Veddel;AVLS;Hamburg;Hamburg;manual
+Velbert Langenberg;Velbert-Langenberg;ELBG;Rhein-Ruhr;Düsseldorf;codematch
+Velbert Neviges;Velbert-Neviges;ENV;Rhein-Ruhr;Düsseldorf;codematch
+Velbert Nierenhof;Velbert-Nierenhof;ENIR;Rhein-Ruhr;Düsseldorf;codematch
+Velbert Rosenhügel;Velbert-Rosenhügel;EVLR;Rhein-Ruhr;Düsseldorf;codematch
+Vierkirchen-Esterhofen;Vierkirchen-Esterhofen;MESH;München;München;direct
+Viersen;Viersen;KV;Rhein-Ruhr;Düsseldorf;codematch
+Dülken;Viersen-Dülken;KDUL;Rhein-Ruhr;Düsseldorf;codematch
+Voerde;Voerde (Niederrhein);EVD;Rhein-Ruhr;Duisburg;codematch
+Wächterhof;Wächterhof;MWAE;München;München;direct
+Waidmannslust;Waidmannslust;BWAI;Berlin;Berlin;direct
+Mörfelden-Walldorf-Walldorf Bahnhof;Walldorf (Hess);FWF;Rhein-Main;Darmstadt;manual
+Wandsbeker Chaussee;Wandsbeker Chaussee;AWCH;Hamburg;Hamburg;direct
+Wanne Eickel Hbf;Wanne-Eickel Hbf;EWAN;Rhein-Ruhr;Essen;codematch
+Warschauer Straße;Warschauer Straße;BWRS;Berlin;Berlin;direct
+Wartenberg;Wartenberg;BWAB;Berlin;Berlin;direct
+Wattenscheid;Wattenscheid;EWAT;Rhein-Ruhr;Essen;codematch
+Wattenscheid-Höntrop;Wattenscheid-Höntrop;EWHP;Rhein-Ruhr;Essen;codematch
+Wedding;Wedding;BWED;Berlin;Berlin;direct
+Wedel;Wedel (Holst);AWL;Hamburg;Hamburg;regex
+Weeze;Weeze;KWEE;Rhein-Ruhr;Duisburg;codematch
+Wellingsbüttel;Wellingsbüttel;AWBS;Hamburg;Hamburg;direct
+Wesel;Wesel;EWES;Rhein-Ruhr;Duisburg;codematch
+Wesel-Feldmark;Wesel-Feldmark;EWFK;Rhein-Ruhr;Duisburg;codematch
+Weßling;Weßling (Oberbay);MWS;München;München;regex
+Westend;Westend;BWES;Berlin;Berlin;direct
+Westhafen;Westhafen;BWH;Berlin;Berlin;direct
+Wetter (Ruhr);Wetter (Ruhr);EWET;Rhein-Ruhr;Hagen;codematch
+Wicklesgreuth;Wicklesgreuth;NWK;Nürnberg;Nürnberg;direct
+Wickrath;Wickrath;KWIC;Rhein-Ruhr;Düsseldorf;codematch
+Wiesbaden Hauptbahnhof;Wiesbaden Hbf;FW;Rhein-Main;Darmstadt;regex swap
+Wiesbaden-Biebrich Bahnhof Wiesbaden Ost;Wiesbaden-Biebrich;FWB;Rhein-Main;Darmstadt;manual
+Wildau;Wildau;BWI;Berlin;Berlin;direct
+Wilhelmsburg;Wilhelmsburg;AWFS;Hamburg;Hamburg;direct
+Wilhelmshagen;Wilhelmshagen;BWIG;Berlin;Berlin;direct
+Winkelhaid;Winkelhaid;NWKH;Nürnberg;Nürnberg;direct
+Wittbräucke;Wittbräucke;EWIK;Rhein-Ruhr;Hagen;codematch
+Witten Hbf;Witten Hbf;EWIT;Rhein-Ruhr;Essen;codematch
+Witten Annen Nord;Witten-Annen Nord;EWIA;Rhein-Ruhr;Essen;codematch
+Wittenau;Wittenau (Wilhelmsruher Damm);BWIN;Berlin;Berlin;regex
+Wohltorf;Wohltorf;AWLF;Hamburg;Hamburg;direct
+Wolfratshausen;Wolfratshausen;MWO;München;München;direct
+Wollankstraße;Wollankstraße;BWOK;Berlin;Berlin;direct
+Wuhlheide;Wuhlheide;BWHH;Berlin;Berlin;direct
+Wulfen;Wulfen (Westf);EWUF;Rhein-Ruhr;Münster (Westf);codematch
+Wülfrath Aprath;Wülfrath-Aprath;EWAP;Rhein-Ruhr;Düsseldorf;codematch
+Wuppertal Hbf;Wuppertal Hbf;KW;Rhein-Ruhr;Düsseldorf;codematch
+W Zoologischer Garten;Wuppertal Zoologischer Garten;KWZ;Rhein-Ruhr;Düsseldorf;codematch
+W Barmen;Wuppertal-Barmen;KWBA;Rhein-Ruhr;Düsseldorf;codematch
+W Langerfeld;Wuppertal-Langerfeld;KWLP;Rhein-Ruhr;Düsseldorf;codematch
+W Oberbarmen;Wuppertal-Oberbarmen;KWO;Rhein-Ruhr;Düsseldorf;codematch
+W Ronsdorf;Wuppertal-Ronsdorf;KWRO;Rhein-Ruhr;Düsseldorf;codematch
+W Sonnborn;Wuppertal-Sonnborn;KWSO;Rhein-Ruhr;Düsseldorf;codematch
+W Steinbeck;Wuppertal-Steinbeck;KWS;Rhein-Ruhr;Düsseldorf;codematch
+W Unterbarmen;Wuppertal-Unterbarmen;KWU;Rhein-Ruhr;Düsseldorf;codematch
+W Vohwinkel;Wuppertal-Vohwinkel;KWV;Rhein-Ruhr;Düsseldorf;codematch
+Xanten;Xanten;KX;Rhein-Ruhr;Duisburg;codematch
+Yorckstraße;Yorckstraße;BYOR;Berlin;Berlin;direct
+Yorckstraße (Großgörschenstraße);Yorckstraße (Großgörschenstraße);BGGS;Berlin;Berlin;direct
+Zepernick;Zepernick (b Bernau);BZEP;Berlin;Berlin;regex
+Neu-Isenburg-Zeppelinheim Bahnhof;Zeppelinheim;FZEP;Rhein-Main;Frankfurt a. M.;manual
+Zeuthen;Zeuthen;BZN;Berlin;Berlin;direct
+Zorneding;Zorneding;MZO;München;München;direct
+Wuhletal;;;Berlin;;n/a
+Goetheplatz;;;München;;n/a
+Obersendling;;;München;;n/a
+Castrop Rauxel Süd;;;Rhein-Ruhr;;n/a
+D Derendorf;;;Rhein-Ruhr;;n/a
+D Flughafen Terminal;;;Rhein-Ruhr;;n/a
+D Reisholz;;;Rhein-Ruhr;;n/a
+DO Werkstätte;;;Rhein-Ruhr;;n/a
+DU Hochfeld Süd;;;Rhein-Ruhr;;n/a
+Erkrath Nord;;;Rhein-Ruhr;;n/a
+Gladbeck Zweckel;;;Rhein-Ruhr;;n/a
+IKEA Kaarst;;;Rhein-Ruhr;;n/a
+Kaarst Mitte/Holzbüttgen;;;Rhein-Ruhr;;n/a
+Kaarster Bahnhof;;;Rhein-Ruhr;;n/a
+Kaarster See;;;Rhein-Ruhr;;n/a
+Mettmann;;;Rhein-Ruhr;;n/a
+Mettmann Zentrum;;;Rhein-Ruhr;;n/a
+Neanderthal;;;Rhein-Ruhr;;n/a
