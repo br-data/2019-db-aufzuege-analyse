@@ -2,9 +2,9 @@ require(tidyverse)
 require(jsonlite)
 require(lubridate)
 
-load("../output/raster-2-cleaned.R")
-load("../output/dat-status-per-day-2-cleaned.R")
-load("../output/facilities.R")
+load("../output/raster-2-cleaned.RData")
+load("../output/dat-status-per-day-2-cleaned.RData")
+load("../output/facilities.RData")
 
 # Map data
 

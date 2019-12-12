@@ -41,4 +41,4 @@ rm(first.datetime, last.datetime)
 raster <- left_join(grid, raster) %>% 
   mutate_at(-1, ~replace(., is.na(.), "NODATA"))
 
-save(raster, file = "../output/raster-1-prepared.R")
+save(raster, file = "../output/raster-1-prepared.RData")

@@ -8,7 +8,7 @@
 require(tidyverse)
 require(lubridate)
 
-load("../output/raster-1-prepared.R")
+load("../output/raster-1-prepared.RData")
 
 # 1. match changing equipmentnumbers
 elevator_duplicates_manual_match <- read_delim("../data/elevator_duplicates_manual_match.csv", 
@@ -53,8 +53,8 @@ count.status.per.day <- function(d) {
 }
 dat.status.per.day <- count.status.per.day(raster)
 
-save(dat.status.per.day, file = "../data/dat-status-per-day-1-prepared.R")
-load("../data/dat-status-per-day-1-prepared.R")
+save(dat.status.per.day, file = "../data/dat-status-per-day-1-prepared.RData")
+load("../data/dat-status-per-day-1-prepared.RData")
 
 dat.status.per.day <- dat.status.per.day %>%
   rowwise() %>% 
@@ -109,5 +109,5 @@ dat.status.per.day <- dat.status.per.day %>% filter(equipmentnumber %in% used.el
 
 # save files
 
-save(raster, file = "../output/raster-2-cleaned.R")
-save(dat.status.per.day, file = "../output/dat-status-per-day-2-cleaned.R")
+save(raster, file = "../output/raster-2-cleaned.RData")
+save(dat.status.per.day, file = "../output/dat-status-per-day-2-cleaned.RData")

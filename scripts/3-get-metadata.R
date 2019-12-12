@@ -3,7 +3,7 @@ library(rpostgis)
 library(RPostgreSQL)
 library(tidyverse)
 
-load("../output/dat-status-per-day-2-cleaned.R")
+load("../output/dat-status-per-day-2-cleaned.RData")
 facilities <- read_csv("../input/facilities-0-orig.csv")
 
 s_bahn_stations <- read_delim("../input/s-bahn-stations.csv", ";", escape_double = FALSE, trim_ws = TRUE) %>% 
@@ -61,4 +61,4 @@ facilities <- facilities %>%
 
 facilities <- facilities %>% filter(equipmentnumber %in% unique(dat.status.per.day$equipmentnumber))
 
-save(facilities, file = "../output/facilities.R")
+save(facilities, file = "../output/facilities.RData")
