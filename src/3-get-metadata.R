@@ -57,7 +57,8 @@ facilities <- facilities %>%
          hersteller = `Hersteller (EQ)`,
          traeger = Aufgabenträger,
          baujahr = `Baujahr (EQ)`,
-         antriebsart = ANTRIEBSART )
+         antriebsart = ANTRIEBSART,
+         DS100 = `Bf DS 100 Abk.`)
 
 facilities <- facilities %>% filter(equipmentnumber %in% unique(dat.status.per.day$equipmentnumber))
 
