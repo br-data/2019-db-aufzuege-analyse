@@ -3,8 +3,9 @@ library(rpostgis)
 library(RPostgreSQL)
 library(tidyverse)
 
-load("../data/facilities-0-orig.R")
+# load("../data/facilities-0-orig.R")
 load("../data/dat-status-per-day-2-cleaned.R")
+facilities <- read_csv("../data/facilities-0-orig.csv")
 
 s_bahn_stations <- read_delim("../data/s-bahn-stations.csv", ";", escape_double = FALSE, trim_ws = TRUE) %>% 
   filter(!`S-Bahnstationsname` == "Frankfurt (Main) Hauptbahnhof tief")

@@ -5,7 +5,6 @@
 require(DBI)
 require(rpostgis)
 require(tidyverse)
-require(feather)
 
 # 0. get facilities from database
 con <- dbConnect(RPostgreSQL::PostgreSQL(),
@@ -49,6 +48,7 @@ dbDisconnect(con)
 
 rm(res, con)
 
-write_feather(raster, path = "../data/raster-0-orig.feather")
-save(raster, file = "../data/raster-0-orig.R")
-save(facilities, file = "../data/facilities-0-orig.R")
+write.csv(raster, file = "../data/raster-0-orig.csv", row.names = F)
+write.csv(facilities, file = "../data/facilities-0-orig.csv", row.names = F)
+# save(raster, file = "../data/raster-0-orig.R")
+# save(facilities, file = "../data/facilities-0-orig.R")

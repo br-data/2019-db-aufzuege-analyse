@@ -6,8 +6,8 @@ require(tidyverse)
 require(lubridate)
 require(feather)
 
-read_feather(path = "../data/raster-0-orig.feather")
 #load("../data/raster-0-orig.R")
+raster <- read_csv("../data/raster-0-orig.csv")
 
 # 1. & 2. Floor time and delete duplicates
 
