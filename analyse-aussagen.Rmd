@@ -19,8 +19,8 @@ require(stringr)
 
 theme_set(theme_bw())
 
-load(file = "./output/dat-status-per-day-2-cleaned.R")
-load(file = "./output/facilities.R")
+load(file = "./output/dat-status-per-day-2-cleaned.RData")
+load(file = "./output/facilities.RData")
 
 dat.status.per.day <- dat.status.per.day %>% mutate(equipmentnumber = as.numeric(equipmentnumber)) %>% 
   gather("state", "n", ACTIVE:UNKNOWN)
@@ -68,8 +68,6 @@ Dabei waren nur <strong>`r filter(dd, state=="ACTIVE") %>% .$label`</strong> der
 Insgesamt betrachten wir `r dat.status.per.day$equipmentnumber %>% unique() %>% length()` Aufzüge in der Analyse.
 
 </div>
-
-### Konkret: Im Schnitt waren Aufzüge <strong>`r (365 * filter(dd, state=="INACTIVE") %>% .$perc) %>% round(1)` Tage im Jahr</strong> inaktiv
 
 <div class="infobox">Wir berücksichtigen in der gesamten Analyse nur Daten der Tageszeit von 6:00 bis 22:00.  
 Leere Messungen (<strong>NODATA</strong>) fließen nicht in die Berechnung ein.
@@ -167,45 +165,10 @@ n.inactives.per.timeunit <- rbind(
 
 ### Von den betrachteten Aufzügen meldeten sich im Schnitt `r n.inactives.per.timeunit[1, 5]` unterschiedliche (also `r n.inactives.per.timeunit[1, 6]`) pro Tag mindestens ein mal inaktiv.
 
-### Monatlich meldeten sich im Schnitt `r n.inactives.per.timeunit[3, 6]` der Aufzüge mindestens ein mal inaktiv.
-
-### Im Monat `r n.inactives.per.timeunit[3, 9]` waren `r n.inactives.per.timeunit[3, 8]` der Aufzüge mindestens einmal inaktiv.
-
 ```{r}
 n.inactives.per.timeunit %>% datatable(rownames = F, options = list(dom = "t"))
 rm(n.inactives.per.timeunit)
 ```
-
-
-<div class="infobox">
-<i>Beispiel 1</i>: Ein Aufzug, der innerhalb eines Jahres an <strong>sieben Tagen komplett ausfällt</strong> und den Rest des Jahres  funktioniert hat in diesem Jahr eine <strong>Verfügbarkeit von rund 98.1%</strong>. <i>Rechnung: 1 - 7 / 365 ≈ 0.981</i>
-<hr>
-<i>Beispiel 2</i>: Ein Aufzug, der im Zeitraum 6:00 - 22:00 <strong>täglich 20 Minuten ausfällt</strong> und den Rest des Tages funktioniert hat eine <strong>Verfügbarkeit von 97.9%</strong>. <i>Rechnung: 1 - 20 / (16 * 60) ≈ 0.979</i>
-</div>
-
-Immerhin erreichten 75% der Aufzüge (n = `r (dd %>% filter(state == "INACTIVE") %>% nrow() * 0.75 ) %>% floor()`), also <strong>3 von 4 Aufzügen</strong> eine maximale Verfügbarkeit von <strong>`r dd %>% filter(state == "INACTIVE") %>% mutate(perc = 1 - perc) %>% pull(perc) %>% quantile(.25) %>% scales::percent()`</strong> oder mehr.
-
-### Konkret: <strong>Jeder vierte Aufzug (n = `r (dd %>% filter(state == "INACTIVE") %>% nrow() * 0.25 ) %>% floor()`) war in der Summe jeweils `r (dd %>% filter(state == "INACTIVE") %>% pull(n) %>% quantile(.75) / 192) %>% round(1)` Tage oder länger</strong> innerhalb der `r totaltime` betrachteten Tage inaktiv
-
-<div class="infobox">
-<i>Beispiel 1</i>: Ein Aufzug, der innerhalb eines Jahres an <strong>18 Tagen komplett ausfällt</strong> und den Rest des Jahres  funktioniert hat in diesem Jahr eine <strong>Verfügbarkeit von rund 95.1%</strong>. <i>Rechnung: 1 - 18 / 365 ≈ 0.951</i>
-<hr>
-<i>Beispiel 2</i>: Ein Aufzug, der im Zeitraum 6:00 - 22:00 <strong>täglich 48 Minuten ausfällt</strong> und den Rest des Tages funktioniert hat eine <strong>Verfügbarkeit von exakt 95%</strong>. <i>Rechnung: 1 - 48 / (16 * 60) = 0.95</i>
-</div>
-
-<strong>Jeder zehnte Aufzug (n = `r (dd %>% filter(state == "INACTIVE") %>% nrow() * 0.1 ) %>% floor()`)</strong> erreichte eine maximale Verfügbarkeit von nur <strong>`r dd %>% filter(state == "INACTIVE") %>% mutate(perc = 1 - perc) %>% pull(perc) %>% quantile(.1) %>% scales::percent()`</strong>
-
-### Konkret: <strong>Jeder zehnte Aufzug (n = `r (dd %>% filter(state == "INACTIVE") %>% nrow() * 0.1 ) %>% floor()`) war im Schnitt `r (dd %>% filter(state == "INACTIVE") %>% pull(n) %>% quantile(.9) / 192) %>% round(1)` Tage oder länger</strong> innerhalb eines Jahres inaktiv
-
-<div class="infobox">
-<i>Beispiel 1</i>: Ein Aufzug, der innerhalb eines Jahres an <strong>42 Tagen komplett ausfällt</strong> und den Rest des Jahres  funktioniert hat in diesem Jahr eine <strong>Verfügbarkeit von rund 88.5%</strong>. <i>Rechnung: 1 - 42 / 365 ≈ 0.885</i>
-<hr>
-<i>Beispiel 2</i>: Ein Aufzug, der im Zeitraum 6:00 - 22:00 <strong>täglich 2 Stunden ausfällt</strong> und den Rest des Tages funktioniert hat eine <strong>Verfügbarkeit von exakt 87.5%</strong>. <i>Rechnung: 1 - 2 / 16 = 0.875</i>
-</div>
-
-1% der Aufzüge, also <strong>jeder hundertste Aufzug</strong> kam auf eine maximale Verfügbarkeit von <strong>`r dd %>% filter(state == "INACTIVE") %>% mutate(perc = 1 - perc) %>% pull(perc) %>% quantile(.01) %>% scales::percent()`</strong>
-
-### <strong>`r nrow(dd %>% filter(state == "INACTIVE", perc >= 0.5))` Aufzüge</strong> haben eine maximale Verfügbarkeit von <strong>nicht mal 50%</strong>:
 
 ```{r}
 dd %>%
@@ -234,207 +197,6 @@ dd %>%
          ) %>%
   datatable(rownames = F, options = list(dom = "ltip", pageLength = 10), filter = "top", escape = F)
 ```
-
-```{r country}
-dd <- summarise.by.group(gr = "bundesland")
-```
-
-### Nach <strong>Bundesland</strong>: Die maximale Verfügbarkeit in <strong>Rheinland-Pfalz</strong> lag bei nur <strong>etwa `r (1 - dd %>% filter(bundesland == "Rheinland-Pfalz", state == "INACTIVE") %>% pull(perc)) %>% scales::percent()`</strong>
-
-```{r plot.country}
-dd %>% 
-  filter(!is.na(bundesland)) %>% 
-  select(-one_of("n", "perc")) %>% 
-  spread(state, label) %>% 
-  arrange(-parse_number(INACTIVE)) %>% 
-  mutate(bundesland = paste0("<strong>", bundesland, "</strong>"),
-         INACTIVE = paste0("<strong>", INACTIVE, "</strong>")) %>% 
-  datatable(rownames = F, options = list(dom = "t", pageLength = 20), escape = F)
-```
-
-
-Der Mittelwert istdurch Ausreißer verzerrt, deshalb lohnt es sich den Median zu beachten. Die folgende Tabelle liest sich so:
-<br>
-<i>In {{bundesland}} erreichen {{p}} Prozent der Aufzüge eine maximale Verfügbarkeit bis zu {{Wert in Zelle (bundesland, p)}}</i>.
-
-```{r country.quantiles}
-dd <- summarise.by.group(gr = c("equipmentnumber", "bundesland")) %>% 
-  select(-n.elevators) %>% 
-  complete(equipmentnumber, state, fill = list(n = 0, perc = 0)) %>% 
-  group_by(bundesland) %>%
-  mutate(n.elevators = n_distinct(equipmentnumber)) %>% 
-  filter(state == "INACTIVE", !is.na(bundesland)) %>% 
-  mutate(perc = 1 - perc) %>% 
-  summarise(n.elevators = n.elevators[1],
-            mean = mean(perc),
-            `p = 5` = quantile(perc, .05),
-            `p = 10` = quantile(perc, .1),
-            `p = 25` = quantile(perc, .25),
-            `p = 50 (median)` = quantile(perc, .5),
-            `p = 75` = quantile(perc, .75),
-            `p = 100` = quantile(perc, 1)) %>%
-  mutate_at(-1, funs(round(., 2)))
-```
-
-### Beispiel: 5% der Aufzüge, also <strong> jeder 20 Aufzug in Rheinland-Pfalz</strong>, erreichen eine maximale Verfügbarkeit von gerade mal <strong>`r dd %>% filter(bundesland == "Rheinland-Pfalz") %>% .[,"p = 5"] %>% unlist() %>% scales::percent()`</strong>.
-
-### Allerdings erreichen die Hälfte der Aufzüge in Rheinland-Pfalz eine maximale Verfügbarkeit von <strong>`r dd %>% filter(bundesland == "Rheinland-Pfalz") %>% .[,"p = 50 (median)"] %>% unlist() %>% scales::percent()`</strong> oder mehr.
-
-### Beispiel 2: 75% der Aufzüge in Sachsen-Anhalt und Schleswig-Holstein erreichen eine maximale Verfügbarkeit von <strong>`r dd %>% filter(bundesland == "Schleswig-Holstein") %>% .[,"p = 25"] %>% unlist() %>% scales::percent()`</strong> oder mehr.
-
-```{r}
-dd %>% 
-  datatable(rownames = F, options = list(dom = "t", pageLength = 18), escape = F)
-```
-
-Konkret in Tagen, anhand der Summe der <i>INACTIVE</i>-Messungen:
-
-```{r}
-dd <- summarise.by.group(gr = c("equipmentnumber", "bundesland")) %>% 
-  select(-n.elevators) %>% 
-  complete(equipmentnumber, state, fill = list(n = 0, perc = 0)) %>% 
-  group_by(bundesland) %>%
-  mutate(n.elevators = n()) %>%
-  filter(state == "INACTIVE", !is.na(bundesland)) %>% 
-  summarise(n.elevators = n.elevators[1],
-            mean = mean(n),
-            `p = 5` = quantile(n, .95),
-            `p = 10` = quantile(n, .9),
-            `p = 25` = quantile(n, .75),
-            `p = 50 (median)` = quantile(n, .5),
-            `p = 75` = quantile(n, .25),
-            `p = 100` = quantile(n, 0)) %>%
-  mutate_at(-(1:2), function(x) {round(x / 192, 2)})
-
-dd %>% 
-  datatable(rownames = F, options = list(dom = "t", pageLength = 18), escape = F)
-```
-
-### Bsp: 5% der Aufzüge in Rheinland-Pfalz waren in der Summe jeweils `r dd %>% filter(bundesland == "Rheinland-Pfalz") %>% .[,"p = 5"] %>% unlist()` Tage oder mehr inaktiv
-
-
-### <strong>Mehr als ein Drittel</strong> (`r facilities %>% count(ist.sbahn = !is.na(.[,"S-Bahnnetz"])) %>% mutate(perc = n / sum(n)) %>% filter(ist.sbahn == T) %>% pull(perc) %>% scales::percent()`) der Aufzüge, von denen wir Daten empfangen haben, befinden sich im <strong>S-Bahn Bereich</strong> von Berlin, Hamburg, München, Rhein-Main, Rhein-Ruhr und Nürnberg.
-
-```{r cities-plot}
-dd <- summarise.by.group(gr = "`S-Bahnnetz`")
-
-dd %>% 
-  filter(!is.na(`S-Bahnnetz`)) %>% 
-  select(-one_of("n", "perc")) %>% 
-  spread(state, label) %>% 
-  arrange(-parse_number(INACTIVE)) %>% 
-  mutate(`S-Bahnnetz` = paste0("<strong>", `S-Bahnnetz`, "</strong>"),
-         INACTIVE = paste0("<strong>", INACTIVE, "</strong>")) %>% 
-  datatable(rownames = F, options = list(dom = "t", pageLength = 20), escape = F)
-```
-
-### München und Nürnberg waren mit `r (1 - dd[which(dd[,"S-Bahnnetz"] == "München"),] %>% filter(state == "INACTIVE") %>% pull(perc)) %>% scales::percent()` bzw. `r (1 - dd[which(dd[,"S-Bahnnetz"] == "Nürnberg"),] %>% filter(state == "INACTIVE") %>% pull(perc)) %>% scales::percent()` überdurchschnittlich gut verfügbar
-
-### Perzentile der maximalen Verfügbarkeit nach Städten
-
-```{r cities}
-dd <- summarise.by.group(gr = c("equipmentnumber", "`S-Bahnnetz`")) %>% 
-  select(-n.elevators) %>% 
-  complete(equipmentnumber, state, fill = list(n = 0, perc = 0))
-
-dd <- dd %>% 
-  group_by(`S-Bahnnetz`) %>% 
-  mutate(n.elevators = n_distinct(equipmentnumber), perc = 1 - perc) %>% 
-  filter(state == "INACTIVE", !is.na(`S-Bahnnetz`)) %>% 
-  summarise(n.elevators = n.elevators[1],
-            mean = mean(perc),
-            `p = 5` = quantile(perc, .05),
-            `p = 10` = quantile(perc, .1),
-            `p = 25` = quantile(perc, .25),
-            `p = 50 (median)` = quantile(perc, .5),
-            `p = 75` = quantile(perc, .75),
-            `p = 100` = quantile(perc, 1)) %>%
-  mutate_at(-1, funs(round(., 2)))
-
-dd %>% 
-  datatable(rownames = F, options = list(dom = "t"), escape = F)
-```
-
-### <strong>Das heißt</strong>: Schlechte Durchschnittswerte kommen bei Rhein-Main vor allem von einigen problematischen Aufzügen. Jeder zweite Aufzug erreichte immerhin eine Verfügbarkeit von bis zu `r dd[which(dd[,"S-Bahnnetz"] == "Rhein-Main"), "p = 50 (median)"] %>% unlist() %>% scales::percent()`. Jeder vierte Aufzug hatte hier allerdings eine maximale Verfügbarkeit von `r dd[which(dd[,"S-Bahnnetz"] == "Rhein-Main"), "p = 25"] %>% unlist() %>% scales::percent()` oder weniger. Jeder zehnte Aufzug erreichte eine Verfügbarkeit von höchstens `r dd[which(dd[,"S-Bahnnetz"] == "Rhein-Main"), "p = 10"] %>% unlist() %>% scales::percent()`.
-
-### Konkret in Tagen, anhand der Summe der <i>INACTIVE</i>-Messungen:
-
-```{r}
-dd <- summarise.by.group(gr = c("equipmentnumber", "`S-Bahnnetz`")) %>% 
-  select(-n.elevators) %>% 
-  complete(equipmentnumber, state, fill = list(n = 0, perc = 0))
-
-dd <- dd %>% 
-  group_by(`S-Bahnnetz`) %>% 
-  mutate(n.elevators = n_distinct(equipmentnumber)) %>% 
-  filter(state == "INACTIVE", !is.na(`S-Bahnnetz`)) %>% 
-  summarise(n.elevators = n.elevators[1],
-            mean = mean(n),
-            `p = 5` = quantile(n, .95),
-            `p = 10` = quantile(n, .9),
-            `p = 25` = quantile(n, .75),
-            `p = 50 (median)` = quantile(n, .5),
-            `p = 75` = quantile(n, .25),
-            `p = 100` = quantile(n, 0)) %>%
-  mutate_at(-(1:2), function(x) {round(x / 192, 2)})
-```
-
-### Bsp: Jeder 20. Aufzug (5%) im S-Bahn-Bereich Rhein-Main war in der Summe `r dd[dd["S-Bahnnetz"] == "Rhein-Main", "p = 5"]` Tage oder mehr inaktiv
-
-### Bsp: Umgekehrt kann man sagen: Jeder vierte Aufzug in München war in der Summe weniger als `r dd[dd["S-Bahnnetz"] == "München", "p = 75"]` Tage inaktiv.
-
-### Aufüge in Rhein-Main waren im Schnitt `r dd[dd["S-Bahnnetz"] == "Rhein-Main", "mean"]` Tage inaktiv. In Nürnberg im Schnitt nur `r dd[dd["S-Bahnnetz"] == "Nürnberg", "mean"]` Tage.
-
-### Die Hälfte der Aufzüge in Berlin waren `r dd[dd["S-Bahnnetz"] == "Berlin", "p = 50 (median)"]` Tage oder länger inaktiv. Die Hälfte der Aufzüge in München waren weniger als `r dd[dd["S-Bahnnetz"] == "München", "p = 50 (median)"]` Tage inaktiv. 
-
-```{r}
-dd %>% 
-  datatable(rownames = F, options = list(dom = "t", pageLength = 18), escape = F)
-```
-
-```{r duration.frequency.data}
-dd <- dat.status.per.day %>% 
-    filter(state == "INACTIVE") %>% 
-    # Summe der inaktiv-Zeiten pro Tag
-    group_by(equipmentnumber, createdAt) %>% 
-    summarise(sum.n = sum(n)) %>%
-    mutate(minutes = sum.n * 5) %>%
-    group_by(equipmentnumber) %>% 
-    summarise(g5 = length(createdAt[minutes >= 5]),
-              g15 = length(createdAt[minutes >= 15]),
-              g60 = length(createdAt[minutes >= 60]),
-              g240 = length(createdAt[minutes >= 240]),
-              g720 = length(createdAt[minutes >= 720]),
-              day = length(createdAt[minutes >= timeunits.per.day * 5]))
-
-dd <- data.frame(n.tage = c(1, 14, 30, round(totaltime / 7) , 100, round(totaltime / 3), 300)) %>% 
-    rowwise() %>% 
-    mutate(`5 Minuten` = dd %>% filter(g5 >= n.tage) %>% nrow(),
-           `15 Minuten` = dd %>% filter(g15 >= n.tage) %>% nrow(),
-           `1 Stunde` = dd %>% filter(g60 >= n.tage) %>% nrow(),
-           `4 Stunden` = dd %>% filter(g240 >= n.tage) %>% nrow(),
-           `12 Stunden` = dd %>% filter(g720 >= n.tage) %>% nrow(),
-           `ganzer Tag (6-22)` = dd %>% filter(day >= n.tage) %>% nrow()) %>% 
-    rename(`Häufigkeit (Mindestanzahl Tage)` = n.tage)
-```
-
-### Mehr als die Hälfte aller Aufzüge waren waren an mindestens einem der 365 Tage (6:00 - 22:00) komplett lahmgelegt.
-
-### Mehr als 90% aller Aufzüge fielen an mindestens einem Tag für 4 Stunden oder mehr aus.
-
-Insgesamt 4 Stunden - nicht unbedingt am Stück.
-
-### `r dd[4,2]` Aufzüge fielen im Schnitt ein mal pro Woche aus
-
-### `r dd[6,2]` Aufzüge fielen im Schnitt alle drei Tage aus
-
-```{r duration.frequency}
-dd %>%
-    datatable(rownames = F, options = list(dom = "t"))
-```
-
-
-
 
 ## Weitere Infos
 
