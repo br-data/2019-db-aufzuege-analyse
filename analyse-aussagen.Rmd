@@ -170,6 +170,8 @@ n.inactives.per.timeunit %>% datatable(rownames = F, options = list(dom = "t"))
 rm(n.inactives.per.timeunit)
 ```
 
+### Aufzüge in der Einzelbetrachtung
+
 ```{r}
 dd %>%
   group_by(equipmentnumber) %>% 
