@@ -25,10 +25,10 @@ Link zum Projekt:
 ## Daten
 
 Die Daten zu den Betriebszuständen der Aufzüge kommen per API vom Open-Data-Portal der Deutschen Bahn: 
-- [Aufzugsdaten](https://data.deutschebahn.com/dataset/data-aufzug)   
-- [Station Facilities Status API](https://data.deutschebahn.com/dataset/fasta-station-facilities-status)    
+- [Aufzugsdaten](https://data.deutschebahn.com/dataset/data-aufzug) → `.input/Open Data/DBSuS-Uebersicht_Aufzuege-Stand2018-11_V2.csv`   
+- [Station Facilities Status API](https://data.deutschebahn.com/dataset/fasta-station-facilities-status) → `./input/facilities-0-orig.csv`, `./input/raster-0-orig.csv.gz`    
 Zusätzliche Informationen von der Deutschen Bahn:  
-- [Stationsdaten](https://data.deutschebahn.com/dataset/data-stationsdaten)  
+- [Stationsdaten](https://data.deutschebahn.com/dataset/data-stationsdaten) → `.input/Open Data/DBSuS-Uebersicht_Bahnhoefe-Stand2019-03.csv`  
 Die Daten zu den Betriebszuständen haben wir alle fünf Minuten mit einem Node.js-Skript via Jenkins abgefragt und in einer Datenbank (PostgreSQL) abgelegt
 
 Input-Datein im Ordner `./input`:
