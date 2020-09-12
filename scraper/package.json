@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "async": "^2.6.1",
-    "node-fetch": "^2.1.2",
+    "node-fetch": "^2.6.1",
     "pg": "^7.4.3",
     "sequelize": "^5.15.1"
   }
