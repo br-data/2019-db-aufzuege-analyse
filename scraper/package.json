@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "node-fetch": "^2.6.1",
     "pg": "^7.4.3",
     "sequelize": "^5.15.1"
